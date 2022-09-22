@@ -7,16 +7,19 @@
 | Italic        | `*italicized text*`		    |
 | Blockquote    | `> blockquote`		    |
 | Ordered List  | `1. First item`<br>`2. Second item`<br>`3. Third item` |
-| Unordered List| `- First item`<br>`- Second item<br>`- Third item |
+| Unordered List| `- First item`<br>`- Second item`<br>`- Third item` |
 | Code 		| `` `code` ``			    |
 | Link 		| `[title](https://www.example.com)`|	         
 | Strikethrough	| `~strikethrough~`	   	    |
 | Code fence	| `<code>` or `` ``` ``<br>some code line 1<br>some code line 2<br>`<code>` or `` ``` `` |
 
 ## Make a Table
-<code>
-| Syntax      | Description | <br> | ----------- | -----------  | <br> | Header      | Title        |<br> | Paragraph   | Text        |
-<code>
+```
+| Syntax      | Description	|
+| ----------- | -----------  |
+| Header      | Title        |
+| Paragraph   | Text         |
+```
 
 # *Examples*
 # H1
@@ -33,13 +36,13 @@
 - Second item
 - Third item
 
-```
+## ```
 #include `<`iostream`>`
 int main() {
     std::cout << "Hello World!";
     return 0;
     }
-```
+## ```
 
 ~I don't want this to be read~
 
