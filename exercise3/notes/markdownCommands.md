@@ -8,19 +8,16 @@
 | Bold	        | `**bold text**`		    |
 | Italic        | `*italicized text*`		    |
 | Blockquote    | `> blockquote`		    |
-| Ordered List  | `1. First item`  `2. Second item` `3. Third item` |
-| Unordered List| `- First item`<br>`- Second item`<br>`- Third item |
+| Ordered List  | `1. First item`<br?`2. Second item`<br>`3. Third item` |
+| Unordered List| `- First item`<br>`- Second item<br>`- Third item |
 | Code 		| `` `code` ``			    |
 | Link 		| `[title](https://www.example.com)`|	         
 | Strikethrough	| `~strikethrough~`	   	    |
-| Code fence	| `<code>` or `` ``` ``<br>`some code line 1`<br>`some code line 2`  `<code>` or `` ``` `` |
+| Code fence	| `<code>` or `` ``` ``<br>some code line 1<br>some code line 2<br>`<code>` or `` ``` `` |
 
 ## Make a Table
 <code>
-	| Syntax      | Description |<br>
-        | ----------- | ----------- |<br>
-        | Header      | Title       |<br>
-        | Paragraph   | Text        |
+| Syntax      | Description |<br>| ----------- | ----------- |<br>| Header      | Title       |<br>| Paragraph   | Text        |
 <code>
 
 # *Examples*
