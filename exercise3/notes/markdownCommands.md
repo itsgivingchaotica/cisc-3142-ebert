@@ -2,49 +2,52 @@
 
 |**Element**    | **Markdown Syntax**		    |
 |---------------|-----------------------------------|
-| Heading       | `# H1`			    |
-| 	        | `## H2`			    |
-|	        | `## H3`			    |
+| Heading         `# H1`			    |
+| 	          `## H2`			    |
+|	          `## H3`			    |
 | Bold	        | `**bold text**`		    |
 | Italic        | `*italicized text*`		    |
 | Blockquote    | `> blockquote`		    |
-| Ordered List  |	`1. First item`		    |
-| 	        | `2. Second item`		    |
+| Ordered List  | `1. First item`		    |
+| 	          `2. Second item`		    |
 |	        | `3. Third item`		    |
 | Unordered List| `- First item`		    |
-| 	        | `- Second item`		    |
+| 	          `- Second item`		    |
 |		| `- Third item`	            |
-| Code 		| ``code``			    |
-| Link 		| `[title](https://www.example.com)`|
-| Table	        | `| Syntax  | Description |`	    |
-|    		| `| ------  | ----------- |`	    |
-|		| `|Header   | Title	   |`	    |
-|		| `|Paragraph| Text	   |`	    |
-| Strikthrough	| `~strickthrough~`	   	    |
-| Code fence	| `<code>` or three backticks	    |
-|      		| `some code line 1`		    |
-|		| `some code line 2`		    |
-|		| `<code>` or three backticks  	    |
+| Code 		| `` `code` ``			    |
+| Link 		| `[title](https://www.example.com)`|	         
+| Table		| <code> Syntax  | Description |<br />  | ------  | ----------- | <br />  |Header   | Title	  |<br />  |Paragraph| Text	  |<br />  | <code>
+| Strikethrough	| `~strikethrough~`	   	    |
+| Code fence	| `<code>` or `` ``` ``	    	    |
+|      		  `some code line 1`		    |
+|		  `some code line 2`		    |
+|		| `<code>` or `` ``` ``  	    |
 
 *Examples*
 # H1
 ## H2
 ### H3
 **bold text**
-*italicized text*> blockquote
+<br />
+*italicized text*
+<br />
+> blockquote
 1. First item
 2. Second item
 3. Third item
 - First item
 - Second item
 - Third item
+
 <code>
-#include <iostream>
+#include `<iostream>`
 
 int main() {
     std::cout << "Hello World!";
     return 0;
 }
 <code>
+<br />
 ~I don't want this to be read~
+<br />
 [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
