@@ -15,34 +15,37 @@ You could use `double` or `float` for each. However, if  I were writing the prog
 
 ## *3. Exercise 2.3*
 
-32
+Given that: `unsigned u = 10, u2 = 42`
+
+`u2 - u` is 32
 
 - 42-10=32
 
-4294967264
+`u - u2` is 4294967264
 
 - 10-42=-32 so 4294967295-32=4294967264, as they are unsigned do not support negative values and represents the typical 32-bit integer size 
 
-32
+Given that `int i = 10, i2 = 42;`
+
+`i2 - i` is 32
 
 - 42-10=32 
 
--32
+`i - i2 ` is -32
 
 - 10-42=-32 as int is signed it supports negative numbers
 
-
-0
+`i - u` is 0
 
 - 10-10=0, may be signed or unsigned 
 
-0
+`u - i` is 0
 
 - result same as above
 
 ## *4. Exercise 2.10*
 
-the first line of code `std::string global_str;` default initialization is empty string. Another global variable: second line `int global_int' is initialized to 0. within `int main(){}` we have `int local_int;` which is undefined and `std::string local_str;` has the value defined by the `string` class even though it is appears to be fully uninitialized. This would be empty string.
+the first line of code `std::string global_str;` default initialization is empty string. Another global variable: second line `int global_int` is initialized to 0. within `int main(){}` we have `int local_int` which is undefined and `std::string local_str` has the value defined by the `string` class even though it is appears to be fully uninitialized. This would be empty string.
 
 ## *5. Exercise 2.12*
 
