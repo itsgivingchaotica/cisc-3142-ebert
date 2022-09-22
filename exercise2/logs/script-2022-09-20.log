@@ -1,0 +1,437 @@
+Script started on Tue Sep 20 22:15:58 2022
+]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise2/logs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise2/logs]2;siobhan@MacBook-Pro-2]1;..xercise2/logs]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise2/logs[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:15:58] [00m[37m[~/cisc-3142-ebert/exercise2/logs][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs    e  ccd ~[?1l>[?2004l
+]2;cd ~]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan]2;siobhan@MacBook-Pro-2]1;~]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:16:37] [00m[37m[~][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hl ccd cisc-32142    31-   13 42-ebert[?1l>[?2004l
+]2;cd cisc-3142-ebert]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:16:45] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd e s c  lls[?1l>[?2004l
+]2;ls -G]1;lsREADME.md               [1m[36mexercise2[39;49m[0m               [1m[36msampleEx2[39;49m[0m
+[1m[36mexercise1[39;49m[0m               makefile                [1m[36msampleExercisesSection1[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:16:48] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hs ccd sampleEx2         c  rrm ~/  r  mmv ~/sampleExerc           cisc-3142-ebert/c sampleExercisesSection1 !/  ~/cisc-03  3142-eb [Keert/sampleEx12  2[?1l>[?2004l
+]2;mv ~/cisc-3142-ebert/sampleExercisesSection1 ~/cisc-3142-ebert/sampleEx2]1;mv[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:17:31] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsREADME.md [1m[36mexercise1[39;49m[0m [1m[36mexercise2[39;49m[0m makefile  [1m[36msampleEx2[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:17:32] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hmmv ~ ~/cisc-3142-ebert/samplEe x2/Samp    sampleExercisesSection1 ~/cis [Kcc-3142-ebert/sampleEx1[?1l>[?2004l
+]2;mv ~/cisc-3142-ebert/samplEx2/sampleExercisesSection1 ]1;mvmv: rename /Users/siobhan/cisc-3142-ebert/samplEx2/sampleExercisesSection1 to /Users/siobhan/cisc-3142-ebert/sampleEx1: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:18:08] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd sample Ex2[?1l>[?2004l
+]2;cd sampleEx2]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:18:18] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[31mexercise2_4[39;49m[0m             exercise2_4.cpp~        exercise2_8.cpp
+exercise2_4.cpp         [31mexercise2_8[39;49m[0m             [1m[36msampleExercisesSection1[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:18:18] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hm ~~/~  ~~/mv   ~  mmv ~/cisc-3142-ebert/sampleEx2/sampleExercisesSection1 ~/ci [Kssc-3142-ebert/sampleEx1[?1l>[?2004l
+]2;mv ~/cisc-3142-ebert/sampleEx2/sampleExercisesSection1 ]1;mv[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:18:45] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[31mexercise2_4[39;49m[0m      exercise2_4.cpp~ exercise2_8.cpp
+exercise2_4.cpp  [31mexercise2_8[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:18:47] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hsscs  eemacs exercise2            e  rrm exercise2_4.cpp~[?1l>[?2004l
+]2;rm exercise2_4.cpp~]1;rm[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:19:10] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hnnan  eemacs struc     exercise2_39.cpp[?1l>[?2004l
+]2;emacs exercise2_39.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:20:04] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hgg++ -o ./exercise2)4  _39 ./ex  exercise2_39.cpp[?1l>[?2004l
+]2;g++ -o ./exercise2_39 ./exercise2_39.cpp]1;g++[1m./exercise2_39.cpp:1:15: [0m[0;1;31merror: [0m[1mexpected ';' after struct[0m
+struct Foo { }
+[0;1;32m              ^
+[0m[0;32m              ;
+[0m1 error generated.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:20:39] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs    e  i ccd..[?1l>[?2004l
+]2;cd..]1;cd..zsh: command not found: cd..
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:29:17] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:29:20] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd sampleEx1[?1l>[?2004l
+]2;cd sampleEx1]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx1]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:29:25] [00m[37m[~/cisc-3142-ebert/sampleEx1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsSales_item.h     exercise1_20.cpp exercise1_22.cpp exercise1_4.cpp
+[31mexercise1_10[39;49m[0m     [31mexercise1_21[39;49m[0m     [31mexercise1_25[39;49m[0m     [31mexercise1_9[39;49m[0m
+exercise1_10.cpp exercise1_21.cpp exercise1_25.cpp exercise1_9.cpp
+[31mexercise1_20[39;49m[0m     [31mexercise1_22[39;49m[0m     [31mexercise1_4[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx1]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:29:26] [00m[37m[~/cisc-3142-ebert/sampleEx1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hoopen   o  eemacs exercise1_21.cpp[?1l>[?2004l
+]2;emacs exercise1_21.cpp]1;emacso [1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx1]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:31:23] [00m[37m[~/cisc-3142-ebert/sampleEx1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hoopen s Sales)t  i _item .h              o  eemacs Sales_) item.h[?1l>[?2004l
+]2;emacs Sales_item.h]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx1]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:32:23] [00m[37m[~/cisc-3142-ebert/sampleEx1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004huunu  eemacs exercs ise2_3 40.,                 e  ccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:34:43] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd samplEx2[?1l>[?2004l
+]2;cd samplEx2]1;cdcd: no such file or directory: samplEx2
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:34:47] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs Sales)      exercise2_40.cpp[?1l>[?2004l
+]2;emacs exercise2_40.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:35:16] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd[?1l>[?2004l
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan]2;siobhan@MacBook-Pro-2]1;~]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:35:18] [00m[37m[~][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls#Makefile#
+[1m[36mApplications[39;49m[0m
+[1m[36mCreative Cloud Files[39;49m[0m
+[35mDesktop[39;49m[0m
+[35mDocuments[39;49m[0m
+[1m[36mDownloads[39;49m[0m
+[1m[36mDropbox[39;49m[0m
+[1m[36mIdeaProjects[39;49m[0m
+[1m[36mLibrary[39;49m[0m
+Makefile
+[1m[36mMonero[39;49m[0m
+[1m[36mMovies[39;49m[0m
+[1m[36mMusic[39;49m[0m
+[1m[36mPictures[39;49m[0m
+[1m[36mPublic[39;49m[0m
+[1m[36mSites[39;49m[0m
+[1m[36mSomeLocalDir[39;49m[0m
+attributes.rtf
+attributes.rtf.sb-20090b7c-ryAwHE
+[1m[36mcisc-3140-ebert[39;49m[0m
+[1m[36mcisc-3142-ebert[39;49m[0m
+[1m[36meclipse-workspace[39;49m[0m
+exercise1_20.cpp
+[35mg++[39;49m[0m
+[35mg++-12[39;49m[0m
+[35mg++12[39;49m[0m
+my_terminal_activities
+replay
+[1m[36msaoirse.ebert91@login.cuny.edu Creative Cloud Files (enterprise)[39;49m[0m
+[1m[36msiobhan[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan]2;siobhan@MacBook-Pro-2]1;~]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:35:19] [00m[37m[~][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd cisc-ebert     3142-ebert[?1l>[?2004l
+]2;cd cisc-3142-ebert]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:35:26] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd e SampleX Ex2[?1l>[?2004l
+]2;cd SampleEx2]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/SampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/SampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/SampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:35:29] [00m[37m[~/cisc-3142-ebert/SampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsexercise2_39.cpp exercise2_4.cpp  exercise2_8.cpp
+[31mexercise2_4[39;49m[0m      [31mexercise2_8[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/SampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/SampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/SampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:35:30] [00m[37m[~/cisc-3142-ebert/SampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs exercise2)_  _41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/SampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/SampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/SampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:37:10] [00m[37m[~/cisc-3142-ebert/SampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004he eemacs exer       e  C ccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:37:18] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd e sampleEx1[?1l>[?2004l
+]2;cd sampleEx1]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx1]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:37:21] [00m[37m[~/cisc-3142-ebert/sampleEx1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd sa  c  oopen exercise1_451   51.cpp[?1l>[?2004l
+]2;open exercise1_51.cpp]1;openThe file /Users/siobhan/cisc-3142-ebert/sampleEx1/exercise1_51.cpp does not exist.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx1]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:37:33] [00m[37m[~/cisc-3142-ebert/sampleEx1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hoopen exercise1_21.cpp[?1l>[?2004l
+]2;open exercise1_21.cpp]1;open[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx1]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:39:20] [00m[37m[~/cisc-3142-ebert/sampleEx1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004he ccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:39:32] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd sampleEx2[?1l>[?2004l
+]2;cd sampleEx2]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[22:39:35] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004haana  eemacs exercise_ 2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:02:32] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004ho ccd ~ ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:02:40] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004ho ccd sampleEx1[?1l>[?2004l
+]2;cd sampleEx1]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx1]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:02:43] [00m[37m[~/cisc-3142-ebert/sampleEx1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hoopen exercise1_22.cpp[?1l>[?2004l
+]2;open exercise1_22.cpp]1;open[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx1]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:02:48] [00m[37m[~/cisc-3142-ebert/sampleEx1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hoopen   o  ccd exercse)_  )2  2        /.  ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3142-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:03:02] [00m[37m[~/cisc-3142-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd sampleEx2[?1l>[?2004l
+]2;cd sampleEx2]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:03:05] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hoopen exercise          o  ccd exercise2_41.cpp[?1l>[?2004l
+]2;cd exercise2_41.cpp]1;cdcd: not a directory: exercise2_41.cpp
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:03:16] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs exercise2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:44:53] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hg cc++ c  gg++ -o ./exercise2_41.cpp / ./exercise2_41.cpp                       ex  ./exercise2_41.cpp[?1l>[?2004l
+]2;g++ -o ./exercise2_41 ./exercise2_41.cpp]1;g++[1m./exercise2_41.cpp:1:2: [0m[0;1;31merror: [0m[1minvalid preprocessing directive[0m
+#inlude <iostream>
+[0;1;32m ^
+[0m[1m./exercise2_41.cpp:7:23: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  unsigned units_sold = 0;
+[0;1;32m                      ^
+[0m[1m./exercise2_41.cpp:8:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  double revenue = 0.0;
+[0;1;32m                 ^
+[0m[1m./exercise2_41.cpp:15:8: [0m[0;1;31merror: [0m[1mno member named 'cout' in namespace 'std'[0m
+  std::cout << "Enter transactions by book number, units, sold price (no commas, Ctrl+D to exit): " << std::endl;
+[0;1;32m  ~~~~~^
+[0m[1m./exercise2_41.cpp:15:109: [0m[0;1;31merror: [0m[1mno member named 'endl' in namespace 'std'[0m
+  std::cout << "Enter transactions by book number, units, sold price (no commas, Ctrl+D to exit): " << std::endl;
+[0;1;32m                                                                                                       ~~~~~^
+[0m[1m./exercise2_41.cpp:16:12: [0m[0;1;31merror: [0m[1mno member named 'cin' in namespace 'std'[0m
+  if (std::cin >> total.bookNo >> total.units_sold >> price1)
+[0;1;32m      ~~~~~^
+[0m[1m./exercise2_41.cpp:22:19: [0m[0;1;31merror: [0m[1mno member named 'cin' in namespace 'std'[0m
+      while (std::cin >> trans)
+[0;1;32m             ~~~~~^
+[0m[1m./exercise2_41.cpp:23:12: [0m[0;1;31merror: [0m[1mno member named 'cout' in namespace 'std'[0m
+      std::cout << "Enter next transaction:  " << std::endl;
+[0;1;32m      ~~~~~^
+[0m[1m./exercise2_41.cpp:23:56: [0m[0;1;31merror: [0m[1mno member named 'endl' in namespace 'std'[0m
+      std::cout << "Enter next transaction:  " << std::endl;
+[0;1;32m                                                  ~~~~~^
+[0m[1m./exercise2_41.cpp:24:19: [0m[0;1;31merror: [0m[1mno member named 'cin' in namespace 'std'[0m
+      while (std::cin >> trans.bookNo >> trans.units_sold >> price2
+[0;1;32m             ~~~~~^
+[0m[1m./exercise2_41.cpp:25:2: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+        {
+[0;1;32m        ^
+[0m[1m./exercise2_41.cpp:24:13: [0m[0;1;30mnote: [0mto match this '('[0m
+      while (std::cin >> trans.bookNo >> trans.units_sold >> price2
+[0;1;32m            ^
+[0m[1m./exercise2_41.cpp:42:2: [0m[0;1;31merror: [0m[1mexpected '}'[0m
+        
+[0;1;32m        ^
+[0m[1m./exercise2_41.cpp:12:1: [0m[0;1;30mnote: [0mto match this '{'[0m
+{
+[0;1;32m^
+[0m2 warnings and 10 errors generated.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:45:19] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs exercise2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:46:24] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hgg++ -o ./exercise2_41 ./exercise2_41.cpp[?1l>[?2004l
+]2;g++ -o ./exercise2_41 ./exercise2_41.cpp]1;g++[1m./exercise2_41.cpp:7:23: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  unsigned units_sold = 0;
+[0;1;32m                      ^
+[0m[1m./exercise2_41.cpp:8:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  double revenue = 0.0;
+[0;1;32m                 ^
+[0m[1m./exercise2_41.cpp:22:23: [0m[0;1;31merror: [0m[1minvalid operands to binary expression ('std::istream' (aka 'basic_istream<char>') and 'Sales_data')[0m
+      while (std::cin >> trans)
+[0;1;32m             ~~~~~~~~ ^  ~~~~~
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:618:1: [0m[0;1;30mnote: [0mcandidate function template not viable: no known conversion from 'Sales_data' to 'unsigned char *' for 2nd argument[0m
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+[0;1;32m^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:626:1: [0m[0;1;30mnote: [0mcandidate function template not viable: no known conversion from 'Sales_data' to 'signed char *' for 2nd argument[0m
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+[0;1;32m^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:670:1: [0m[0;1;30mnote: [0mcandidate function template not viable: no known conversion from 'Sales_data' to 'unsigned char &' for 2nd argument[0m
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+[0;1;32m^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:678:1: [0m[0;1;30mnote: [0mcandidate function template not viable: no known conversion from 'Sales_data' to 'signed char &' for 2nd argument[0m
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+[0;1;32m^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:635:1: [0m[0;1;30mnote: [0mcandidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'Sales_data')[0m
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+[0;1;32m^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:295:1: [0m[0;1;30mnote: [0mcandidate template ignored: could not match 'uniform_int_distribution<type-parameter-0-2>' against 'Sales_data'[0m
+operator>>(basic_istream<_CharT, _Traits>& __is,
+[0;1;32m^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:607:1: [0m[0;1;30mnote: [0mcandidate template ignored: could not match '_CharT *' against 'Sales_data'[0m
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+[0;1;32m^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1444:1: [0m[0;1;30mnote: [0mcandidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'Sales_data'[0m
+operator>>(basic_istream<_CharT, _Traits>& __is,
+[0;1;32m^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1580:1: [0m[0;1;30mnote: [0mcandidate template ignored: could not match 'bitset<_Size>' against 'Sales_data'[0m
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+[0;1;32m^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1384:11: [0m[0;1;30mnote: [0mcandidate template ignored: requirement 'integral_constant<bool, false>::value' was not satisfied [with _Stream = std::istream &, _Tp = Sales_data &][0m
+_Stream&& operator>>(_Stream&& __is, _Tp&& __x)
+[0;1;32m          ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:217:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'std::istream &(*)(std::istream &)' for 1st argument[0m
+    basic_istream& operator>>(basic_istream& (*__pf)(basic_istream&))
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:221:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'basic_ios<std::basic_istream<char>::char_type, std::basic_istream<char>::traits_type> &(*)(basic_ios<std::basic_istream<char>::char_type, std::basic_istream<char>::traits_type> &)' (aka 'basic_ios<char, std::char_traits<char> > &(*)(basic_ios<char, std::char_traits<char> > &)') for 1st argument[0m
+    basic_istream& operator>>(basic_ios<char_type, traits_type>&
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:226:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'std::ios_base &(*)(std::ios_base &)' for 1st argument[0m
+    basic_istream& operator>>(ios_base& (*__pf)(ios_base&))
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:229:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'basic_streambuf<std::basic_istream<char>::char_type, std::basic_istream<char>::traits_type> *' (aka 'basic_streambuf<char, std::char_traits<char> > *') for 1st argument[0m
+    basic_istream& operator>>(basic_streambuf<char_type, traits_type>* __sb);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:230:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'bool &' for 1st argument[0m
+    basic_istream& operator>>(bool& __n);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:231:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'short &' for 1st argument[0m
+    basic_istream& operator>>(short& __n);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:232:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'unsigned short &' for 1st argument[0m
+    basic_istream& operator>>(unsigned short& __n);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:233:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'int &' for 1st argument[0m
+    basic_istream& operator>>(int& __n);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:234:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'unsigned int &' for 1st argument[0m
+    basic_istream& operator>>(unsigned int& __n);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:235:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'long &' for 1st argument[0m
+    basic_istream& operator>>(long& __n);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:236:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'unsigned long &' for 1st argument[0m
+    basic_istream& operator>>(unsigned long& __n);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:237:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'long long &' for 1st argument[0m
+    basic_istream& operator>>(long long& __n);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:238:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'unsigned long long &' for 1st argument[0m
+    basic_istream& operator>>(unsigned long long& __n);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:239:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'float &' for 1st argument[0m
+    basic_istream& operator>>(float& __f);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:240:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'double &' for 1st argument[0m
+    basic_istream& operator>>(double& __f);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:241:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'long double &' for 1st argument[0m
+    basic_istream& operator>>(long double& __f);
+[0;1;32m                   ^
+[0m[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:242:20: [0m[0;1;30mnote: [0mcandidate function not viable: no known conversion from 'Sales_data' to 'void *&' for 1st argument[0m
+    basic_istream& operator>>(void*& __p);
+[0;1;32m                   ^
+[0m[1m./exercise2_41.cpp:25:2: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+        {
+[0;1;32m        ^
+[0m[1m./exercise2_41.cpp:24:13: [0m[0;1;30mnote: [0mto match this '('[0m
+      while (std::cin >> trans.bookNo >> trans.units_sold >> price2
+[0;1;32m            ^
+[0m[1m./exercise2_41.cpp:42:2: [0m[0;1;31merror: [0m[1mexpected '}'[0m
+        
+[0;1;32m        ^
+[0m[1m./exercise2_41.cpp:12:1: [0m[0;1;30mnote: [0mto match this '{'[0m
+{
+[0;1;32m^
+[0m2 warnings and 3 errors generated.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:46:33] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs exercs ise2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:48:48] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hgg++ -o ./exercise2_41.  ./exercise2_41.cpp[?1l>[?2004l
+]2;g++ -o ./exercise2_41 ./exercise2_41.cpp]1;g++[1m./exercise2_41.cpp:7:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  int units_sold = 0;
+[0;1;32m                 ^
+[0m[1m./exercise2_41.cpp:8:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  double revenue = 0.0;
+[0;1;32m                 ^
+[0m[1m./exercise2_41.cpp:15:16: [0m[0;1;35mwarning: [0m[1mmissing terminating '"' character [-Winvalid-pp-token][0m
+  std::cout << "Enter transactions by book number, units, sold price (no commas
+[0;1;32m               ^
+[0m[1m./exercise2_41.cpp:15:16: [0m[0;1;31merror: [0m[1mexpected expression[0m
+[1m./exercise2_41.cpp:16:19: [0m[0;1;35mwarning: [0m[1mmissing terminating '"' character [-Winvalid-pp-token][0m
+ Ctrl+D to exit): " << std::endl;
+[0;1;32m                  ^
+[0m[1m./exercise2_41.cpp:42:2: [0m[0;1;31merror: [0m[1mexpected '}'[0m
+        
+[0;1;32m        ^
+[0m[1m./exercise2_41.cpp:12:1: [0m[0;1;30mnote: [0mto match this '{'[0m
+{
+[0;1;32m^
+[0m4 warnings and 2 errors generated.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:48:59] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs exercise2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:50:58] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hgg++ -o ex  ./.e  exercise2_41 ./exercise2_41.cpp[?1l>[?2004l
+]2;g++ -o ./exercise2_41 ./exercise2_41.cpp]1;g++[1m./exercise2_41.cpp:7:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  int units_sold = 0;
+[0;1;32m                 ^
+[0m[1m./exercise2_41.cpp:8:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  double revenue = 0.0;
+[0;1;32m                 ^
+[0m[1m./exercise2_41.cpp:26:8: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'item1'[0m
+          if (item1.bookNo() == item2.bookNo())
+[0;1;32m              ^
+[0m[1m./exercise2_41.cpp:26:26: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'item2'[0m
+          if (item1.bookNo() == item2.bookNo())
+[0;1;32m                                ^
+[0m2 warnings and 2 errors generated.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:51:09] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs exercise2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:51:53] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hgg++ -o exercis       ./exercise2_41 ./exercise2_41.cpp[?1l>[?2004l
+]2;g++ -o ./exercise2_41 ./exercise2_41.cpp]1;g++[1m./exercise2_41.cpp:7:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  int units_sold = 0;
+[0;1;32m                 ^
+[0m[1m./exercise2_41.cpp:8:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  double revenue = 0.0;
+[0;1;32m                 ^
+[0m[1m./exercise2_41.cpp:26:8: [0m[0;1;31merror: [0m[1mtype 'std::string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') does not provide a call operator[0m
+          if (total.bookNo() == trans.bookNo())
+[0;1;32m              ^~~~~~~~~~~~
+[0m[1m./exercise2_41.cpp:26:26: [0m[0;1;31merror: [0m[1mtype 'std::string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') does not provide a call operator[0m
+          if (total.bookNo() == trans.bookNo())
+[0;1;32m                                ^~~~~~~~~~~~
+[0m2 warnings and 2 errors generated.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:52:03] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heeme emacs exercise.2  2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:55:41] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hgg++ -o ex  ./exercise2) _41.  ./exercise2_41.cpp[?1l>[?2004l
+]2;g++ -o ./exercise2_41 ./exercise2_41.cpp]1;g++[1m./exercise2_41.cpp:7:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  int units_sold = 0;
+[0;1;32m                 ^
+[0m[1m./exercise2_41.cpp:8:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  double revenue = 0.0;
+[0;1;32m                 ^
+[0m2 warnings generated.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:55:53] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hgg++ -o -std=c++11 ./exercise2_41 ./exercise2_41.cpp[?1l>[?2004l
+]2;g++ -o -std=c++11 ./exercise2_41 ./exercise2_41.cpp]1;g++[1m./exercise2_41.cpp:7:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  int units_sold = 0;
+[0;1;32m                 ^
+[0m[1m./exercise2_41.cpp:8:18: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+  double revenue = 0.0;
+[0;1;32m                 ^
+[0m2 warnings generated.
+ld: warning: argument missing after -o
+ld: can't link with a main executable file './exercise2_41' for architecture arm64
+clang: [0;1;31merror: [0m[1mlinker command failed with exit code 1 (use -v to see invocation)[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:58:03] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs exercise2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacsemacs       [1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[00:05:58] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs exercise2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[00:06:05] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hgg++ -o exerc     ./exercise2_41 ./exercise _24   2_41.cpp[?1l>[?2004l
+]2;g++ -o ./exercise2_41 ./exercise2_41.cpp]1;g++[1m./exercise2_41.cpp:7:7: [0m[0;1;31merror: [0m[1mfunction definition does not declare parameters[0m
+  int units_sold {0};
+[0;1;32m      ^
+[0m[1m./exercise2_41.cpp:8:10: [0m[0;1;31merror: [0m[1mfunction definition does not declare parameters[0m
+  double revenue {0.0};
+[0;1;32m         ^
+[0m[1m./exercise2_41.cpp:16:41: [0m[0;1;31merror: [0m[1mno member named 'units_sold' in 'Sales_data'[0m
+  if (std::cin >> total.bookNo >> total.units_sold >> price1)
+[0;1;32m                                  ~~~~~ ^
+[0m[1m./exercise2_41.cpp:18:13: [0m[0;1;31merror: [0m[1mno member named 'revenue' in 'Sales_data'[0m
+      total.revenue = total.units_sold * price1;
+[0;1;32m      ~~~~~ ^
+[0m[1m./exercise2_41.cpp:18:29: [0m[0;1;31merror: [0m[1mno member named 'units_sold' in 'Sales_data'[0m
+      total.revenue = total.units_sold * price1;
+[0;1;32m                      ~~~~~ ^
+[0m[1m./exercise2_41.cpp:23:48: [0m[0;1;31merror: [0m[1mno member named 'units_sold' in 'Sales_data'[0m
+      while (std::cin >> trans.bookNo >> trans.units_sold >> price2)
+[0;1;32m                                         ~~~~~ ^
+[0m[1m./exercise2_41.cpp:25:10: [0m[0;1;31merror: [0m[1mno member named 'revenue' in 'Sales_data'[0m
+          trans.revenue = trans.units_sold * price2;
+[0;1;32m          ~~~~~ ^
+[0m[1m./exercise2_41.cpp:25:26: [0m[0;1;31merror: [0m[1mno member named 'units_sold' in 'Sales_data'[0m
+          trans.revenue = trans.units_sold * price2;
+[0;1;32m                          ~~~~~ ^
+[0m[1m./exercise2_41.cpp:28:14: [0m[0;1;31merror: [0m[1mno member named 'revenue' in 'Sales_data'[0m
+              total.revenue += trans.revenue;
+[0;1;32m              ~~~~~ ^
+[0m[1m./exercise2_41.cpp:28:31: [0m[0;1;31merror: [0m[1mno member named 'revenue' in 'Sales_data'[0m
+              total.revenue += trans.revenue;
+[0;1;32m                               ~~~~~ ^
+[0m[1m./exercise2_41.cpp:33:93: [0m[0;1;31merror: [0m[1mno member named 'revenue' in 'Sales_data'[0m
+              std::cout << total.bookNo << "appeared " << count << "times. Total sales: " << total.revenue << std::endl;
+[0;1;32m                                                                                             ~~~~~ ^
+[0m[1m./exercise2_41.cpp:34:14: [0m[0;1;31merror: [0m[1mno member named 'revenue' in 'Sales_data'[0m
+              total.revenue = trans.revenue;
+[0;1;32m              ~~~~~ ^
+[0m[1m./exercise2_41.cpp:34:30: [0m[0;1;31merror: [0m[1mno member named 'revenue' in 'Sales_data'[0m
+              total.revenue = trans.revenue;
+[0;1;32m                              ~~~~~ ^
+[0m[1m./exercise2_41.cpp:38:87: [0m[0;1;31merror: [0m[1mno member named 'revenue' in 'Sales_data'[0m
+        std::cout << total.bookNo << "appeared " << count << "times. Total sales: " << total.revenue << std::endl;
+[0;1;32m                                                                                       ~~~~~ ^
+[0m14 errors generated.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[00:06:18] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heemacs exercise2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[00:08:09] [00m[37m[~/cisc-3142-ebert/sampleEx2][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004h[7mecho 'alias g++="g++ -std=c++11"' >> ~/.bash_profile[27m
+[7msource ~/.bash_profile[27m[K[A[27me[27mc[27mh[27mo[27m [27m'[27ma[27ml[27mi[27ma[27ms[27m [27mg[27m+[27m+[27m=[27m"[27mg[27m+[27m+[27m [27m-[27ms[27mt[27md[27m=[27mc[27m+[27m+[27m1[27m1[27m"[27m'[27m [27m>[27m>[27m [27m~[27m/[27m.[27mb[27ma[27ms[27mh[27m_[27mp[27mr[27mo[27mf[27mi[27ml[27me[1B[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mb[27ma[27ms[27mh[27m_[27mp[27mr[27mo[27mf[27mi[27ml[27me[?1l>[?2004l
+]2;echo 'alias g++="g++ -std=c++11"' >> ~/.bash_profile; source ~/.bash_profile]1;echo[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[Jsse:🧚🏻‍♀️✨ [K[?1h=[?2004h[7mecho 'alias g++="g++ -std=c++11"' >> ~/.bash_profile[27m
+[7msource ~/.bash_profile[27m[K[A[10D[27me[27mc[27mh[27mo[27m [27m'[27ma[27ml[27mi[27ma[27ms[27m [27mg[27m+[27m+[27m=[27m"[27mg[27m+[27m+[27m [27m-[27ms[27mt[27md[27m=[27mc[27m+[27m+[27m1[27m1[27m"[27m'[27m [27m>[27m>[27m [27m~[27m/[27m.[27mb[27ma[27ms[27mh[27m_[27mp[27mr[27mo[27mf[27mi[27ml[27me[1B[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mb[27ma[27ms[27mh[27m_[27mp[27mr[27mo[27mf[27mi[27ml[27me[?1l>[?2004l
+]2;echo 'alias g++="g++ -std=c++11"' >> ~/.bash_profile; source ~/.bash_profile]1;echo[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[Jsse:🧚🏻‍♀️✨ [K[?1h=[?2004he gg++ -o exercise        ./exercise2_41 ./exercise2_41.cpp[?1l>[?2004l
+]2;g++ -std=c++11 -o ./exercise2_41 ./exercise2_41.cpp]1;g++[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[Jsse:🧚🏻‍♀️✨ [K[?1h=[?2004hgg+g  eema e  gg++ -o ex  ./exercise2_41 ./exerciw se2_41.cpp[?1l>[?2004l
+]2;g++ -std=c++11 -o ./exercise2_41 ./exercise2_41.cpp]1;g++[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[Jsse:🧚🏻‍♀️✨ [K[?1h=[?2004heemacs exercise2_41.cpp[?1l>[?2004l
+]2;emacs exercise2_41.cpp]1;emacs[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[Jsse:🧚🏻‍♀️✨ [K[?1h=[?2004hgg++ -o ./exercisec 2_8 ./exercise2_9 8.cpp[?1l>[?2004l
+]2;g++ -std=c++11 -o ./exercise2_8 ./exercise2_8.cpp]1;g++[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2]2;siobhan@MacBook-Pro-2]1;..ert/sampleEx2]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/sampleEx2[0m[27m[24m[Jsse:🧚🏻‍♀️✨ [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+Deleting expired sessions...      46 completed.
+
+Script done on Wed Sep 21 00:10:03 2022
