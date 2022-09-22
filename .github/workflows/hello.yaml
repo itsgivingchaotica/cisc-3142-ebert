@@ -1,20 +1,21 @@
----
-name: hello world
+name: C/C++ CI
 
 on:
   push:
-    branches: [ "main" ]
+      branches: [ main ]
   pull_request:
-    branches: [ "main" ]
+      branches: [ main ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: open exercise1 folder
-      run: cd exercise1
-    - name: run hello world code
-      run: ./helloworld
+  build-and-test:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+      - name: install cppunit
+      run: sudo apt install -y libcppunit-dev
+      - name: configure
+      run: ./configure
+      - name: make
+      run: make
+      - name: make test
+      run: make test
