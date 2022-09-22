@@ -15,7 +15,7 @@
 
 ## Make a Table
 ```
-| Syntax      | Description	|
+| Syntax      | Description  |
 | ----------- | -----------  |
 | Header      | Title        |
 | Paragraph   | Text         |
@@ -36,13 +36,13 @@
 - Second item
 - Third item
 
-## ```
+```
 #include `<`iostream`>`
 int main() {
     std::cout << "Hello World!";
     return 0;
     }
-## ```
+```
 
 ~I don't want this to be read~
 
