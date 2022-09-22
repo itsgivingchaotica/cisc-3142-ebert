@@ -69,4 +69,4 @@ The initializations in (a) (c) and (f) are illegal. (b) is legal because `p2` wi
 
 ## *10. Exercise 2.28*
 
-(a) is illegal since `cp` must initialize. (b) is illegal because `p3` must initialize if it is `const` (c) is illegal because `ic` isn't initialized as a `const` (d) is illegal, because `p3` must initialize as it is `const`. (e) legal, 1p1  is a pointer to a `const int`.
+(a) is illegal since `cp` must initialize. (b) is illegal because `p3` must initialize if it is `const` (c) is illegal because `ic` isn't initialized as a `const` (d) is illegal, because `p3` must initialize as it is `const`. (e) legal, `p` is a pointer to a `const int`.
