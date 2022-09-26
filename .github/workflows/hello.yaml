@@ -9,5 +9,4 @@ jobs:
       - uses: actions/checkout@v2
       - run: echo "Running makefile"
       - name: create prog
-        run: g++ -o exercise3/helloworld.cpp
-      - run: ./hello.out
+        run: g++ ./exercise3/helloworld.cpp -o ./exercise3/hello.out
