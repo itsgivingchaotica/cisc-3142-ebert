@@ -1,4 +1,4 @@
-#**Version Control Commands**
+# **Version Control Commands**
 
 |       Command          |                             Action				           |
 |------------------------|-------------------------------------------------------------------------|
