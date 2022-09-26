@@ -10,3 +10,4 @@ jobs:
       - run: echo "Running makefile"
       - name: create prog
         run: g++ ./exercise3/helloworld.cpp -o ./exercise3/hello.out
+      - run: ./exercise3/hello.out
