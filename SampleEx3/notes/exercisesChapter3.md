@@ -90,14 +90,45 @@ ivec[0] = 42;
 ## **Exercise3.19**
 1. `vector<int> v1(10, 42);`
 2. `vector<int> v2{42, 42, 42, 42, 42, 42, 42, 42, 42, 42};
-3. ```
-    vector<int> v3(10);
-    for (auto &i: ivec)
-    {
-        i = 42;
-    }
-    ```
+3. 
+```
+vector<int> v3(10);
+for (auto &i: ivec)
+{
+    i = 42;
+}
+```
 Option 1 is the simplest way to add multiple identical elements to a vector in this way
+
+## **Exercise 3.26**
+`mid = (beg+end) / 2` can result in overflow specifically when we take `beg+end` whereas `mid = beg + (end - beg) / 2` has no overflow as we subtract `beg` from `end` thereby preventing possible overflow.
+
+## **Exercise 3.27**
+(a) `int ia[buf_size];` is illegal because `buf_size` is not `const unsigned` i.e. as a dimension it must be a constant expression.
+(b) `int ia[4*7-14]` is equivalent to `int[14]` and is indeed a legal expression `int` in this case is obviously `const`
+(c) `int ia[txt_size()]` is legal *only if* the return type of `txt_size()` is `const`
+(d) `char st[11] = "fundamental";`is illegal because the number of initializers `char`s in exceed the specified size of the dimension of `st` due to the null terminator unaccounted for. 
+
+## **Exercise 3.28**
+1. `string sa[10];` has 10 `string` elements - all empty.
+2. `int ia[10];` has 10 `int` elements all automatically initialized to 0.
+3. `int main(){string sa2[10]}`  has 10 `string` elements - all empty.
+4. `int main(){int ia2[10]}` has 10 uninitialized `int` elements.
+
+## **Exercise 3.29**
+There are several drawbacks to using an arrays rather than vectors. 
+- An array's length cannot be changed after it is declared. The dimension is fixed, whereas a vector's length may be changed whenever needed. Therefore dynamic creation of arrays is impossible
+- Within a block, an array is not initialized whereas a vector will be initialized
+- Multiple data types / objects can not be stored and elements can not be deleted
+
+## **Exercise 3.30**
+We can see that the size of the array is 10 elements with index values [0,9] therefore when `ix` goes to 10, it is out of range of the array's dimensions
+
+## **Exercise 3.33**
+If `scores` was uninitialized then the values would be undefined
+
+## **Exercise 3.34**
+The code `p1 =+ p2 - p1;` is another form for `p1 = p1 + (p2 - p1)` by order of operations we have `p2 - p1` which results in returning a `ptrdiff_t` type. If p2 points to an element just past the end of an array and p1 refers to the beginning of the array this will become illegal as 'p1' not be pointing to any element of the array, not even the element one past the end of it.
 
 
 

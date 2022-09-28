@@ -1,3 +1,4 @@
+/* read set of integers into vector, print sum of adjacent elements, then print sum of first and last elements, followed by sum of second and second-to-last and so on and not overlapping pairs*/
 #include <iostream>
 #include <vector>
 using std::cout;

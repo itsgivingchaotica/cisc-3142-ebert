@@ -1,4 +1,5 @@
-//read sequence of words from cin and store values in vector. After you've read in all the words process the vector and change each word to uppercase. Print elements eight words to a line
+/*read sequence of words from cin and store values in vector. After you've read in all the words process the vector and change each word to uppercase. Print elements eight words to a line
+ */
 #include <iostream>
 #include <string>
 #include <vector>
