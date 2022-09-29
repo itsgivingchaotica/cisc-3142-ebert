@@ -22,12 +22,15 @@ int main()
     ivec.push_back(i);
     ++x;
     }
-    
+    cout << "Each value in the vector doubled: ";
+  //use iterator to proceed through values in the vector and assign each element its value times 2
   for (auto it = ivec.begin(); it != ivec.end(); ++it)
   {
       *it *=2;
+      //print the new value
       cout << *it << " ";
   }
+    //if the vector is empty, print message
     cout << ((ivec.cbegin() == ivec.cend()) ? "empty\n" : "\n");
     
   return 0;

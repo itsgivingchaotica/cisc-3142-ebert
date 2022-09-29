@@ -16,11 +16,11 @@ int main()
   vector<string> svec;
 
   cout << "Enter a sequence of words separated by enter : " << endl;
+  //for all strings input, push into the vector
   while (getline(cin, str))
   {
       svec.push_back(str);
   }
-    
     for (int i = 0; i < svec.size(); ++i)
 	   {
 	   for (char &c : svec[i])
@@ -32,10 +32,12 @@ int main()
         //for every eight word, go to next line
         if (i%8 == 0)
         {
-            cout << endl;
+            cout << "\n";
         }
         //print each element of the vector separated by a space
         cout << svec[i] << " ";
     }
+    cout << endl;
+    
     return 0;
 }

@@ -16,17 +16,18 @@ like 0.056, and should use a loop to estimate the price
 adjusted for inflation
  */
 #include <iostream>
+#include <iomanip>
 
 using std::cout;
 using std::cin;
 using std::endl;
+using std::fixed;
+using std::setprecision;
 
 int main()
 {
-  double cost = 0.0;
+  double cost, infl, inflRate;
   int years;
-  double infl;
-  double inflRate;
   
   cout << "To calculate the rate of inflation, follow the prompts: " << endl;
   cout << "Enter the cost of  the item: ";
@@ -35,14 +36,15 @@ int main()
   cin >> years;
   cout << "Enter the rate of inflation as a percentage: ";
   cin >> infl;
+  
+  //the inflation rate coverted to fraction
   inflRate = infl/100;
-    cout << "The fraction value to be used is: " << inflRate << endl;
-
+  //for each year that will pass, add the inflated cost of the product
   for (int i = 1; i<= years; i++)
     {
       cost += cost*inflRate;
     }
-
-  cout << "The price adjusted for inflation is for " << years << " years is: $" << cost << endl;
+  //print the inflated price to two decimal places 
+  cout << "The price adjusted for inflation is for " << years << " years is: $" << fixed << setprecision(2) << cost << endl;
   return 0;
 }
