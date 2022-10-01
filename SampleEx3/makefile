@@ -1,6 +1,6 @@
 CC = g++
 
-sampleEx3: exercise3_1.o exercise3_2_1.o exercise3_2_2.o exercise3_4.o exercise3_5.o exercise3_6.o exercise3_7.o exercise3_8.o exercise3_10.o exercise3_14.o exercise3_15.o exercise3_16.o exercise3_20.o exercise3_21.o exercise3_21_2.o exercise3_22.o exercise3_24.o exercise3_25.o exercise3_31.o exercise3_32.o exercise3_35.o exercise3_36.o
+sampleEx3: exercise3_1.o exercise3_2_1.o exercise3_2_2.o exercise3_4.o exercise3_5.o exercise3_6.o exercise3_7.o exercise3_8.o exercise3_10.o exercise3_14.o exercise3_15.o exercise3_16.o exercise3_20.o exercise3_21.o exercise3_21_2.o exercise3_22.o exercise3_24.o exercise3_25.o exercise3_31.o exercise3_32.o exercise3_35.o exercise3_36.o exercise3_41.o exercise3_43.o exercise3_44.o exercise3_45.o
 
 exercise3_1.o:
 	g++ exercise3_1.cpp -std=c++11 -o exercise3_1 && ./exercise3_1
@@ -67,3 +67,15 @@ exercise3_35.o:
 
 exercise3_36.o:
 	g++ exercise3_36.cpp -std=c++11 -o exercise3_36 && ./exercise3_36
+	
+exercise3_41.o:
+	g++ exercise3_41.cpp -std=c++11 -o exercise3_41 && ./exercise3_41
+
+exercise3_43.o:
+	g++ exercise3_43.cpp -std=c++11 -o exercise3_43 && ./exercise3_43
+
+exercise3_44.o:
+	g++ exercise3_44.cpp -std=c++11 -o exercise3_44 && ./exercise3_44
+	
+exercise3_45.o:
+	g++ exercise3_45.cpp -std=c++11 -o exercise3_45 && ./exercise3_45
