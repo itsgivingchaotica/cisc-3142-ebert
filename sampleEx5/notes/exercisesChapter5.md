@@ -145,3 +145,96 @@ switch(swt){
 ```
 We cannot use a nonconst case label. Use `const unsigned ival = 512, jval = 1024, kval = 4096;` 
 
+## **Exercise 5.15**
+< Explain each of the following loops. Correct any problems you detect.
+(a) 
+```
+for (int ix = 0; ix != sz; ++ix)
+if (ix != sz) //unnecessary, was already included in the for header as a conditional
+    // ...
+```
+This for loop starts from the  `int` value `ix = 0` (the init statement) and the conditional allows the loop to repeat until `ix` goes to the size of "something" and increments `ix` to continue the loop. Second `if` completely unnecessary
+
+(b)
+```
+int ix;
+for (ix != sz; ++ix)
+{ / * . . . * / }
+```
+This would be valid if the init statement `int ix` included outside of the loop was initialized.
+
+(c)
+```
+for (int ix = 0; ix != sz; ++ix; ++sz)
+{ / * . . . * / }
+```
+This would result in an endless for loop if `sz != 0` prior to the for heading being read, if the statement did not increment `ix` or decrement `sz` within its block of code.
+
+## **Exercise 5.16**
+There are situations in which using a `while` loop makes more sense, as in when you don't know how many iterations you need. It's also great for incorporating user input, file input, and when incrementing values within the block statement is nontraditional.
+
+```
+string word;
+while (cin >> word)
+{
+    //do something
+}
+//vs
+for (string word; cin >> word)
+{
+    //do something
+}
+```
+
+we can also use the variable `word` beyond the scope of the while loop to perform other tasks needed by the program
+
+For loops are great when you know the number of times the loop should execute, and work well with arrays, vectors, etc.
+
+```
+vector<int> ivec = {0, 1, 2, 3, 4, 5}; 
+
+for (auto it = ivec.begin(); it != ivec.end(); ++it)
+{
+    //do something such as print in this case
+}
+//vs
+auto it2 = ivec.begin();
+while (it2 != ivec.end())
+{
+    ++it2;
+    //do something
+}
+```
+## **Exercise 5.18**
+< Explain each of the following loops. Correct any problems you detect
+
+(a)
+```
+do 
+    int v1, v2;
+    cout << "Please enter two numbers to sum: "";
+    if (cin >> v1 >> v2)
+        cout << "Sum is: " << v1 + v2 << endl;
+while (cin);
+```
+missing curly braces `{} beginning after `do` and before `while`
+
+(b)
+```
+do {
+    // . . . 
+    } while (int ival = get_response());
+```
+illegal, Cannot define variables inside condition. declare `int ival` prior to do while loop
+
+(c)
+```
+do {
+    int ival = get_response();
+} while (ival);
+```
+ival not declared and is out of scope. insert `int ival = get_response();` prior to the do while loop
+
+
+
+        
