@@ -14,6 +14,7 @@ A compound statement surrounded by a pair of curly braces `{}` ; a scope. Used w
 > Explain each of the following examples, and correct any problems you detect.
 
 (a) `while (string::iterator iter != s.end() { / * ... * / }` is invalid because iter does not point to anything, to fix this we may declare `string::iterator iter = s.begin(); then use the while statement accordingly `while (iter != s.end() { / * ... * / }`
+
 (b) `while (bool status = find(word)) { / * ... * / } if (!status) { / * ... * / }` is invalid because `status` was declared only  in the while statment and can only be used within the scope of that block. To use in the if statement we would need to declare `bool status;` prior to the `while` loop and `if` statement. `bool status; while ((status = find(word))) { / * ... * / } if (!status) { / * ... * / }`
 
 ## **Exercise 5.7**
