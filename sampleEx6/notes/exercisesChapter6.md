@@ -66,10 +66,12 @@ int main()
 
 ## **Exercise 6.13**
 > Assuming `T` is the name of a type, explain the difference bretween a function declared as `void f(T)` and `void f(T&)`
+
 `void f(T)` passes arguments by *value* whereas `void f(T&)` passes arguments by *reference*
 
 ## **Exercise 6.14**
 > Give an example of when a parameter should be a reference type. Give an example of when a parameter should not be a reference.
+
 A parameter should be of reference type when we want to change the values associated with the arguments. For larger data structures it also helps performance. However, we should not use when want simply to utilize the arguments in our method and not change them in `main` and the data structure is quite small.
 
 ## **Exercise 6.15**
@@ -113,6 +115,7 @@ Legal
 
 ## **Exercise 6.20**
 > When should reference parameters be references to const? What happens if we make a parameter a plain reference when it could be a reference to const?
+
 We need to be referencing const when we don't want to change the values associated with the paramters. If we make a parameter a plain reference the value could be changed and rewritten as different value/set of values due to what occurs within the body of the function. 
 
 ## **Exercise 6.21**
@@ -139,7 +142,6 @@ This method only works when it is called with an array of 10 elements as its arg
 
 ## **Exercises 6.25/26**
 > Write a main function that takes two arguments. Concatenate the supplied arguments and print the resulting string.
-
 ```
 int main(int argc, char *argv[])
 {
@@ -156,6 +158,7 @@ int main(int argc, char *argv[])
 
 ## **Exercise 6.28**
 > In the second version of error_msg that has an ErrCode parameter, what is the type of elem in the for loop?
+
 `const string&` because the list is of `string` type so each element will be of type `string` as well, which must always be `const` values. 
 
 ## **Exercise 6.29**
@@ -192,10 +195,12 @@ The function is legal. It assigns the element of the array at the index value to
 
 ## **Exercise 6.34**
 > What would happen if the stopping condition in factorial were `if(val != 0)`
+
 The function would process up until `val == 0` if the argument passed is positive. If the argument was negative it would result in an endless recursive loop
 
 ## **Exercise 6.35**
 > In a call to `factorial`, why did we pass `val - 1` rather than `val--` ?
+
 The compiler warns of a segmentation fault. A stack overflow occurs because `val--` would endlessly decrement without end
 
 ## **Exercise 6.36**

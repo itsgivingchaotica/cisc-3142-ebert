@@ -2,19 +2,23 @@
 
 ## **Exercise 5.1**
 > What is a null statement? When might you use a null statement?
+
 An empty statement `;` We can use a null statement when it is required to have a statement but it is not needed for the logic of the program to check out. For example, if we want to read in values until we find the value we need in a while loop, a null statement can be used to exit the loop.
 
 ## **Exercise 5.2**
 > What is a block? When might you use a block?
+
 A compound statement surrounded by a pair of curly braces `{}` ; a scope. Used when a single statement is required but the program needs more than one. For example, in a while loop we may need to not only add a value to a sum but also incremenet the value to continue adding values to the sum until the while loop is broken.
 
 ## **Exercise 5.4**
 > Explain each of the following examples, and correct any problems you detect.
+
 (a) `while (string::iterator iter != s.end() { / * ... * / }` is invalid because iter does not point to anything, to fix this we may declare `string::iterator iter = s.begin(); then use the while statement accordingly `while (iter != s.end() { / * ... * / }`
 (b) `while (bool status = find(word)) { / * ... * / } if (!status) { / * ... * / }` is invalid because `status` was declared only  in the while statment and can only be used within the scope of that block. To use in the if statement we would need to declare `bool status;` prior to the `while` loop and `if` statement. `bool status; while ((status = find(word))) { / * ... * / } if (!status) { / * ... * / }`
 
 ## **Exercise 5.7**
 > Correct the errors in each of the following code fragments:
+
 (a) 
 ```
 if (ival1 != ival2)
@@ -71,6 +75,7 @@ if (ival == 0) // if ival equals 0
 
 ## **Exercise 5.8**
 > What is a "dangling `else`"? How are `else` clauses resolved in C++?
+
 When there is more `if` branches than `else` branches it results in dangling `else`, we can resolve this in C++ by making sure to specify that each `else` matches with the previous unmatched `if` closest to it.
 
 ## **Exercise 5.13**
@@ -147,6 +152,7 @@ We cannot use a nonconst case label. Use `const unsigned ival = 512, jval = 1024
 
 ## **Exercise 5.15**
 > Explain each of the following loops. Correct any problems you detect.
+
 (a) 
 ```
 for (int ix = 0; ix != sz; ++ix)
