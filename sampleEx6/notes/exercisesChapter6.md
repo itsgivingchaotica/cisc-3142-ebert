@@ -2,6 +2,7 @@
 
 ## **Exercise 6.1**
 > What is the difference between a parameter and an argument?
+
 Arguments initialize the function's parameters. When a the function is called, the actual data passed into the parameters are the arguments. 
 
 ## **Exercise 6.2**
