@@ -235,6 +235,18 @@ do {
 ```
 ival not declared and is out of scope. insert `int ival = get_response();` prior to the do while loop
 
-
-
-        
+## **Exercise 5.22**
+< The last example in this section that jumped back to begin could be better written using a loop. Rewrite the code to eliminate the goto.
+```
+begin:
+    int sz = get_size();
+    if (sz <=0)
+    {
+        goto begin;
+    }
+```
+Simply use a while loop
+```
+int sz;
+while ((sz = get_size()) <= 0);
+```
