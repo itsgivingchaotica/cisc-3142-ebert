@@ -231,6 +231,43 @@ auto arrPtr(int i) -> int(&)[5]
 }
 ```
 
+## **Exercise 6.40**
+> Which, if either, of the following declarations are errors? Why?
 
+(a) `int ff(int a, int b = 0, int c = 0)` is valid
+(b) `char *init(int ht = 24, int wd, char bckgrnd);` in case the declaratino is an error because `wd` and `bckgrnd` need to be initialized if `ht` already is.
+
+## **Exercises 6.41**
+> Which, if any, of the following calls are illegal? Why? Which, if any, are legal but unlikely to match the programmer's intent? Why?
+
+`char *init(int ht, int wd = 80, char bckgrnd = ' ');`
+
+(a) `init();` Illegal. `ht` is not initialized and will not return any value
+(b) `init(24,10)` legal
+(c) `init(14, '*')` although this is legal, is will be unlikely that the programmer meant to use `*` as `wd` in fact the value returned would be an int not a char
+
+## **Exercise 6.43**
+> Which one of the following declarations and definitions would you put in a header? In a source file? Explain why.
+
+(a) `inline bool eq(const BigInt&, const Big Int&) {...}` since the function is an `inline` function, it's best practice to declare and define it in a header file because an identical definition for the function must exist in every translation unit that uses it.
+(b) `void putValues(int *arr, int size);` This can be declared in the header file but the definition may be in the source file. 
+
+
+## **Exercise 6.44**
+> Rewrite the isShorter function from § 6.2.2(p. 211) to be inline.
+
+```
+inline bool is Shorter(const string &s1, const string &s2)
+{
+    return s1.size() < s2.size();
+}
+```
+
+## **Exercise 6.46**
+> Would it be possible to define isShorter as a constexpr? If so, do so. If not, explain why not.
+
+It would not be possible because:
+- the `size` function cannot be a `constexpr` as it does not return literals
+- the expression `s1.size() == s2.size()` is not a `constexpr`
 
 
