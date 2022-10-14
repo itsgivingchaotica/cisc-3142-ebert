@@ -1,0 +1,19 @@
+name: Exercise 5 programs
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  exercise5:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - run: echo "Running Exercise 5 makefile"
+    - name: run programs
+      run: cd ./exercise5 && make exercise5
+

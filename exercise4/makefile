@@ -16,3 +16,4 @@ inflation.o:
 	
 nutritionCalculator.o:
 	g++ nutritionCalculator.cpp -std=c++11 -o nutritionCalculator && ./nutritionCalculator
+
