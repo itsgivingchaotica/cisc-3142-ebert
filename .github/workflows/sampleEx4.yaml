@@ -1,18 +1,19 @@
 name: Sample Exercise 4 programs
 
 on:
-    push:
-      branches: [ "main" ]
-    pull_request:
-      branches: [ "main" ]
-        
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
 jobs:
   sampleEx4:
-    
-  runs-on: macos-latest
-    
-  steps:
-  - uses: actions/checkout@v3
-  - run: echo "Running makefile"
-  - name: run programs
-    run: cd ./sampleEx4 && make sampleEx4
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - run: echo "Running Exercise 5 makefile"
+    - name: run programs
+      run: cd ./sampleEx4 && make sampleEx4
+
