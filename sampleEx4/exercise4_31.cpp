@@ -21,7 +21,7 @@ int main()
     for (vector<int>::size_type ix = 0; ix != ivec.size(); ix++, cnt2--)
     {
         //
-        ivec[ix] = cnt;
+        ivec[ix] = cnt2;
         cout << ivec [ix] << " " << cnt2 << endl;
     }
     

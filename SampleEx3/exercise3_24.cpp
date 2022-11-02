@@ -30,7 +30,6 @@ int main()
             {
                 int first = *it_vec+1;
                 cout << first + *it_vec << " ";
-                first = *it_vec+1;
                 ++len;
             }
             cout << endl;

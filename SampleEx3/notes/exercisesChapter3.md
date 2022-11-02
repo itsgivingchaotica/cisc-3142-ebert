@@ -1,10 +1,39 @@
 # **Exercises from Chapter 3**
 
+## **Exercise 3.1**
+> Rewrite the exercises from 1.4.1 and 2.6.2 with appropriate `using` declarations
+[Exercise 3.1](https://github.com/itsgivingchaotica/cisc-3142-ebert/blob/main/SampleEx3/exercise3_1.cpp)
+
+## **Exercise 3.2**
+> Write a program to read the standard input a line at a time. Modify your program to read a word at a time.
+[Exercise 3.2.A](https://github.com/itsgivingchaotica/cisc-3142-ebert/blob/main/SampleEx3/exercise3_2_1.cpp)
+[Exercise3.2.B](https://github.com/itsgivingchaotica/cisc-3142-ebert/blob/main/SampleEx3/exercise3_2_2.cpp)
+
 ## **Exercise 3.3**
-In the 'string' input operator (cin), whitespace characters are not allowed as the '>>' operator skips leading whitespace characters. However, 'getline' function reads in the entire line including all whitespaces until user hits return
+>Explain how whitespace characters are handled in the `string` input operator and in the `getline` function
+
+In the 'string' input operator `cin`, whitespace characters are not allowed as the `>>` operator skips leading whitespace characters. However, the `getline` function reads in the entire line including all whitespaces until user hits return
+
+## **Exercise 3.4**
+> Write a program to read two `string`s and report whether the `strings` are equal. If not, report which of the two is larger.
+
+[Exercise 3.4](https://github.com/itsgivingchaotica/cisc-3142-ebert/blob/main/SampleEx3/exercise3_4.cpp)
+
+## **Exercise 3.5**
+> Write a program to read `string`s from the standard input, concatenating what is read into one large `string`. Print the concatenated `string`/ Next, change the program to separate adjacent input `string`s by a space.
+
+[Exercise 3.5](https://github.com/itsgivingchaotica/cisc-3142-ebert/blob/main/SampleEx3/exercise3_5.cpp)
+
+## **Exercise 3.6**
+> Use a range for to change all the characters in a `string` to `X`
+
+[Exercise 3.6](https://github.com/itsgivingchaotica/cisc-3142-ebert/blob/main/SampleEx3/exercise3_6.cpp)
 
 ## **Exercise 3.7**
+> What would happen if you define the loop control variable in the previous exercise as type `char`? Predict the results and then change your program to use a`char` to see if you were right
+
 If we change the for loop control variable to char then the characters will not be changed
+
 ```
 #include <iostream>
 using std::cout;
@@ -19,7 +48,7 @@ int main()
   cin >> str;
   if(!str.empty())
     {
-      //changed from auto &c : str
+  //changed from auto &c : str
   for (char c : str)
     c = 'X';
   cout << str << endl;
@@ -27,8 +56,11 @@ int main()
   return 0;
 }
 ```
+
 ## **Exercise3.8**
-As we can see from comparing the three approaches that range for is the most elegant way to iteratitevely change the string to all X's. The while loop adds an extra line of code to account for `++i`
+> Rewrite the program in the first exercise, first using a `while` loop and again using a traditional `for` loop. Which of the three approaches do you prefer and why?
+
+As we can see from comparing the three approaches that range for is the most elegant way to iteratively change the string to all X's. The while loop adds an extra line of code to account for `++i`
 
 ```
 while (i != str1.size()) {
@@ -48,38 +80,67 @@ whereas the range for does not require a counter to iterate through every charac
 ```
 for (auto &c: str)
 ```
+
 ## **Exercise 3.9**
-This program is not valid 
+> What does the following program do? Is it valid? If not, why not?
+
 ```
 //string is initialized to the empty string
 string s;
 cout << s[0] <<endl;
 ```
-In this case `s[0]` is undefined as `s` is initialized to the empty string therefore there is no value at index 0.
+
+Invalid. In this case `s[0]` is undefined as `s` is initialized to the empty string therefore there is no value at index 0.
+
+## **Exercise 3.10**
+> Write a program that reads a string of characters including punctuation and writes what was read but with the punctuation removed.
+
+[Exercise 3.10](https://github.com/itsgivingchaotica/cisc-3142-ebert/blob/main/SampleEx3/exercise3_10.cpp)
 
 ## **Exercise 3.11**
-The following is legal :
+> Is the following range `for` legal? If so, whatis the type of `c`?
 ```
 const string s = "Keep out!";
 for (auto &c : s) { /* ... */ }
 ```
-c is of the type const char&. This is only legal until it is attempted to change the value of c. 
+Legal. `c` is of the type `const char&`. This is only legal until it is attempted to change the value of c. 
 
 ## **Exercise 3.12**
-(a) `vector<vector<int>> ivec;` is legal. ivec is an empty vector whose elements are int vectors
-(b) `vector<string> svec = ivec;` is not legal. ivec holds `ints`s not `string`s
-(c) `vector<string> svec(10, "null");` is legal. svec has ten with value "null"
+> Which, if any, of the following `vector` definitions are in error? For those that are legal, explain what the definition does. For those that are not legal, explain why they are illegal.
+
+(a) `vector<vector<int>> ivec;` is legal. `ivec` is an empty `vector` whose elements are `vector`s of type `int`
+(b) `vector<string> svec = ivec;` is not legal. `ivec` holds `ints`s not `string`s
+(c) `vector<string> svec(10, "null");` is legal. `svec` has ten elements set to `"null"`
 
 ## **Exercise 3.13**
-(a) `vector<int> v1;` v1 holds objects of of type int and is initially empty
-(b) `vector<int> v2(10);` v2 can hold 10 elements of int type and is initialized to 0
-(c) `vector<int> v3(10, 42);` v3 has ten int elements of value 42
-(d) `vector<int> v4{10};` v4 has one int element of value 10
-(e) `vector<int> v5{10, 42};` v5 has two int elements of the values 10 and 42
-(f) `vector<string> v6{10}; v6 has 10 elements of which are all empty strings
-(g) `vector<string> v7{10, "hi"};` has ten string elements and they are all "hi"
+> How many elements are there in each of the following vectors? What are the values of the elements?
+
+(a) `vector<int> v1;` `v1` holds objects of type `int` and is initially empty
+(b) `vector<int> v2(10);` `v2` can hold 10 elements of `int` type and is initialized to 0
+(c) `vector<int> v3(10, 42);` `v3` has ten `int` elements that have the value 42
+(d) `vector<int> v4{10};` `v4` has one `int` element of value 10
+(e) `vector<int> v5{10, 42};` `v5` has two `int` elements of the values 10 and 42
+(f) `vector<string> v6{10}; `v6` has 10 elements of which are all empty `string`s
+(g) `vector<string> v7{10, "hi"};` has ten `string` elements and they are all "hi"
+
+## **Exercise 3.14**
+> Write a program to read a sequence of `int`s from `cin` and store those values in a `vector`
+
+[Exercise 3.14](https://github.com/itsgivingchaotica/cisc-3142-ebert/blob/main/SampleEx3/exercise3_14.cpp)
+
+## **Exercise 3.15**
+> Repeat the previous program but read `string`s this time
+
+[Exercise 3.15](https://github.com/itsgivingchaotica/cisc-3142-ebert/blob/main/SampleEx3/exercise3_15.cpp)
+
+## **Exercise 3.16**
+> Write a program to print the size and contents of the `vector`s from exercise 3.13. 
+
+[Exercise 3.16](https://github.com/itsgivingchaotica/cisc-3142-ebert/blob/main/SampleEx3/exercise3_16.cpp)
+
 
 ## **Exercise 3.18**
+> 
 The following is not legal:
 ```
 vector<int> ivec;

@@ -13,6 +13,7 @@ struct Sales_data
 
 int main()
 {
+  // Use a while to sum the numbers from 50 to 100
   int sum = 0, val = 50;
   while (val <= 100)
     {
@@ -20,7 +21,7 @@ int main()
       ++val;
     }
   cout << "Sum of 50 to 100 inclusive is " << sum << endl;
-
+  
    Sales_data total;
   double price1;
   cout << "Enter transactions by book number, units, sold price, one field per line  Ctrl+D to exit): " << endl;
