@@ -1,3 +1,6 @@
+#ifndef SALES_DATA_H
+#define SALES_DATA_H
+
 #include <string>
 #include <iostream>
 
@@ -28,7 +31,7 @@ class Sales_data
     Sales_data& combine(const Sales_data &rhs);
  
   private:
-    double CalcAvgPrice() const { return units_sold ? revenue/units_sold : 0; }
+    inline double CalcAvgPrice() const;
     string itemNo;
     unsigned units_sold = 0;
     double revenue = 0.0;
@@ -61,3 +64,10 @@ ostream &print(ostream &os, const Sales_data &item)
   os << " ISBN#: " << item.isbn() << "number sold: " << item.units_sold << ", revenue: " << item.revenue << " average price: " << item.CalcAvgPrice(); 
   return os;
 }
+
+inline double Sales_data::CalcAvgPrice() const 
+{ 
+  return units_sold ? revenue/units_sold : 0; 
+}
+
+#endif // SALES_DATA_H
