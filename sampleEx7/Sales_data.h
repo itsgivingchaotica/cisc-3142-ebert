@@ -24,9 +24,20 @@ class Sales_data
   friend ostream &print(ostream&, const Sales_data&);
   public:
     Sales_data() = default;
-    Sales_data(const string &s) : itemNo(s){ }
-    Sales_data(const string &s, unsigned n, double p) : itemNo(s), units_sold(n), revenue(p*n){ }
+    //Sales_data(const string &s) : itemNo(s){ }
     Sales_data(istream &is) { read(is, *this); }
+    Sales_data() : Sales_data("", 0, 0.0f)
+    {
+      cout << "Sales_data() initialized to null/zero" << endl;
+    }
+    Sales_data(const string &s) : Sales_data(s, 0, 0.0f)
+    {
+      cout << "Sales_data(const string &s) initialized" << endl;
+    }
+    Sales_data(const string &s, unsigned n, double p) : itemNo(s), units_sold(n), revenue(p*n)
+    { 
+      cout << "Sales_data(const std::string&, unsigned, double)" << endl; 
+    }
     string isbn() const { return itemNo; }
     Sales_data& combine(const Sales_data &rhs);
  
