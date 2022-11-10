@@ -119,8 +119,8 @@ public:
 
 `Sample() : x(0), y(0) { }` or `Sample() = default;`
 
-> ii. Write the definition of the constructor 2 so that the private member variable x is initialized
-`Sample(int x_ = 0) : x(x_) { }`
+> ii. Write the definition of the constructor 2 so that the private member variable x is initialized to value of the parameter and the private member variable y is initialized to 0
+`Sample(int x_) : x(x_), y(0) { }`
 
 > iii. Write the definition of the constructors 3 and 4 so that the private member variables are initialized according to the values of the parameters.
 `Sample(int x_, int y_) : x(x_), y(double(y_) { }`
