@@ -16,8 +16,9 @@ struct Sales_data
   unsigned units_sold = 0;
   double revenue = 0.0;
 
-  void CalcRevenue(double price);
-  double CalcAvgPrice();
+  Sales_data& combine(const Sales_data &rhs);
+  void CalcRevenue(double price);code 
+  double CalcAvgPrice() const;
   void SetData(Sales_data data);
   void AddData(Sales_data data);
   void Print();
@@ -34,6 +35,13 @@ void Sales_data::SetData(Sales_data data)
   revenue = data.revenue;
 }
 
+Sales_data& combine(const Sales_data &rhs)
+{
+  units_sold += rhs.units_sold;
+  revenue += rhs.revenue;
+  return *this;
+}
+
 void Sales_data::AddData(Sales_data data)
 {
   if (itemNo != data.itemNo)
@@ -44,7 +52,7 @@ void Sales_data::AddData(Sales_data data)
     revenue += data.revenue;
 }
 
-double Sales_data::CalcAvgPrice()
+double Sales_data::CalcAvgPrice() const
 {
   if (units_sold != 0)
     {
@@ -58,7 +66,7 @@ double Sales_data::CalcAvgPrice()
 
 void Sales_data::Print()
 {
-  cout << itemNo << " " << units_sold << " " << revenue<< " ";
+  cout << itemNo << " " << units_sold << " " << revenue << " ";
   double avgPrice = CalcAvgPrice();
   if (avgPrice != 0.0){
   cout << avgPrice << endl;
