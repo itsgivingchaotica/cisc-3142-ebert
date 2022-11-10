@@ -1,28 +1,20 @@
 # ***Exercise 7 Solutions***
 
 ## **Classes and Objects**
-> Classes and Objects
-Write the definition for a class called Rectangle that has floating point data members length and width.
-The class has the following member functions:
-void setlength(float) to set the length data member
-void
-setwidth(float) to set the width data member
-float perimeter() to calculate and return the perimeter of the rectangle
-float area() to calculate and return the area of the rectangle
-void show() to display the length and width of the rectangle
-int sameArea(R
-ectangle) that has one parameter of type Rectangle. sameArea returns 1 if the
-two Rectangles have the same area, and returns 0 if they don't.
-1.Write the definitions for each of the above member functions.
-2.Write main function to create two rectangle objects.
-Set the length and width of the first rectangle
+> Classes and Objects<br>
+Write the definition for a class called Rectangle that has floating point data members length and width. <br>
+The class has the following member functions:<br>
+void setlength(float) to set the length data member<br>
+void setwidth(float) to set the width data member<br>
+float perimeter() to calculate and return the perimeter of the rectangle<br> 
+float area() to calculate and return the area of the rectangle<br>
+void show() to display the length and width of the rectangle<br>
+int sameArea(Rectangle) that has one parameter of type Rectangle. sameArea returns 1 if the two Rectangles have the same area, and returns 0 if they don't.<br>
+1.Write the definitions for each of the above member functions.<br>
+2.Write main function to create two rectangle objects. Set the length and width of the first rectangle
 to 5 and 2.5. Set the length and width of the second rectangle to 5 and 18.9. Display each
-rectangle and its area and perimeter.
-3.Check whether the two Rectangles have the same area and print a message in
-dicating the result. Set
-the length and width of the first rectangle to 15 and 6.3. Display each Rectangle and its area and
-perimeter again. Again, check whether the two Rectangles have the same area and print a
-message indicating the result
+rectangle and its area and perimeter.<br>
+3.Check whether the two Rectangles have the same area and print a message indicating the result. Set the length and width of the first rectangle to 15 and 6.3. Display each Rectangle and its area and perimeter again. Again, check whether the two Rectangles have the same area and print amessage indicating the result
 
 ```
 #include <iostream>
