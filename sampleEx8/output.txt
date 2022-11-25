@@ -1,0 +1,60 @@
+ISBN#: 0-201-12345-X
+Number sold: 29
+Revenue: 513
+Average price: 17.6897
+
+ISBN#: 0-202-12345-X
+Number sold: 4
+Revenue: 102
+Average price: 25.5
+
+ISBN#: 0-203-12345-X
+Number sold: 13
+Revenue: 145
+Average price: 11.1538
+
+ISBN#: 0-204-12345-X
+Number sold: 1
+Revenue: 40
+Average price: 40
+
+ISBN#: 0-205-12345-X
+Number sold: 20
+Revenue: 60
+Average price: 3
+
+ISBN#: 0-206-12345-X
+Number sold: 3
+Revenue: 72
+Average price: 24
+
+ISBN#: 0-201-12345-X
+Number sold: 29
+Revenue: 513
+Average price: 17.6897
+
+ISBN#: 0-202-12345-X
+Number sold: 4
+Revenue: 102
+Average price: 25.5
+
+ISBN#: 0-203-12345-X
+Number sold: 13
+Revenue: 145
+Average price: 11.1538
+
+ISBN#: 0-204-12345-X
+Number sold: 1
+Revenue: 40
+Average price: 40
+
+ISBN#: 0-205-12345-X
+Number sold: 20
+Revenue: 60
+Average price: 3
+
+ISBN#: 0-206-12345-X
+Number sold: 3
+Revenue: 72
+Average price: 24
+

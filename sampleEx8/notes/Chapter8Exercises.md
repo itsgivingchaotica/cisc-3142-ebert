@@ -65,5 +65,14 @@ Input error, is.rdstate() is 0
 
 if `cin` is in error then the `while` loop will terminate. `badbit` indicates that a stream is corrupted. `failbit` indicates that an IO operation failed. `eofbit` indicates that a stream hit end-of-file.
 
+## **Exercise 8.12**
+> Why didn't we use in-class initalizers in `PersonInfo`?
+
+The members in `PersonInfo` are public and therefore have default initialization. 
+
+## **Exercise 8.14**
+> Why did we declare `entry` and `nums` as `const auto&`?
+
+In this case we want to make sure not to change the elements contained within the vectors but rather change the references, specifically by passing as a paramter to function `format` which will be read into the `ostringstream` object.
 
 

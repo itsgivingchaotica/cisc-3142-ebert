@@ -4,16 +4,30 @@
 #include <iostream>
 #include <string>
 #include "Sales_data.h"
+#include <fstream>
 
-int main()
+using std::ifstream;
+
+int main(int argc, char **argv)
 {
+    if (argc < 2) {
+        cerr << "No data to process" << endl;
+        return -3;
+    }
+    ifstream inputFile(argv[1]);
+
+    if (!inputFile) {
+        cerr << "Cannot open file " << argv[1] << endl;
+        return -2;
+    }
+
     Sales_data total;
-    if (read(cin,total))
+    if (read(inputFile,total))
     {
         Sales_data trans;
-        while (read(cin,total))
+        while (read(inputFile,trans))
         {
-            if (total.itemNo == trans.itemNo)
+            if (total.isbn() == trans.isbn())
             {
                 total.combine(trans);
             }
@@ -27,7 +41,7 @@ int main()
     }
     else
     {
-        cout << "Data not entered" << '\n';
+        cerr << "Data not entered" << endl;
         return -1;
     }
     return 0;
