@@ -1,0 +1,181 @@
+The average running length of the films is 100.932 minutes
+
+1920's average film length: 101.957
+1930's average film length: 90.5217
+1940's average film length: 92.6556
+1950's average film length: 98.7165
+1960's average film length: 115.461
+1970's average film length: 111.111
+1980's average film length: 100.794
+1990's average film length: 92.4783
+
+
+Action genre: 0 director(s) have won awards
+
+
+Adventure genre: 1 director(s) have won awards
+
+Kurosawa, Akira
+
+Comedy genre: 22 director(s) have won awards
+
+Lucas, George
+Wilder, Billy
+Huston, John
+Jewison, Norman
+Ashby, Hal
+Matthau, Charles
+Crichton, Charles
+Saks, Gene
+Ross, Herbert
+Mankiewicz, Joseph L.
+Bunuel, Luis
+Annaud, Jean-Jacques
+Lumet, Sidney
+Allen, Woody
+Ford, John
+Silverstein, Elliot
+Gordon, Steve
+Pollack, Sydney
+De Sica, Vittorio
+Blier, Bertrand
+Bogdanovich, Peter
+Frank, Melvin
+
+Crime genre: 0 director(s) have won awards
+
+
+Drama genre: 88 director(s) have won awards
+
+Szabó, István
+Bergman, Ingmar
+Stone, Oliver
+Zinnemann, Fred
+Beatty, Warren
+Coppola, Francis Ford
+Rydell, Mark
+Lelouch, Claude
+Kramer, Stanley
+Harvey, Anthony
+Puenzo, Luiz
+Kazan, Elia
+Katselas, Milton
+Beresford, Bruce
+De Sica, Vittorio
+Scola, Ettore
+Soderbergh, Steven
+Brooks, James L.
+Axel, Gabriel
+Fellini, Federico
+Weir, Peter
+Levinson, Barry
+Scorsese, Martin
+Haines, Randa
+Rossen, Robert
+Parker, Alan
+Kaplan, Jonathan
+Dassin, Jules
+Goulding, Edmund
+Lean, David
+Taurog, Norman
+Lynch, David
+Fosse, Bob
+Brown, Clarence
+Sheridan, Jim
+Mann, Daniel
+Ritt, Martin
+Schlesinger, John
+Hitchcock, Alfred
+Pakula, Alan J.
+Rademakers, Fons
+Masterson, Peter
+Costa-Gavras
+Benton, Robert
+Menzel, Jiri
+Polanski, Roman
+Attenborough, Richard
+Cukor, George
+Gilliam, Terry
+Berri, Claude
+Kurosawa, Akira
+Bondarchuk, Sergei
+Wyler, William
+Kotcheff, Ted
+Gibson, Alan
+Bogdanovich, Peter
+Avildsen, John G.
+Mizrahi, Moshe
+Mankiewicz, Joseph L.
+Kubrick, Stanley
+Poitier, Sidney
+Kadar, Jan
+Joffe, Roland
+Litvak, Anatole
+Hudson, Hugh
+Bourguignon, Serge
+Cimino, Michael
+Pollack, Sydney
+Friedkin, William
+Schroeder, Barbet
+Nichols, Mike
+Stevens, George
+Forman, Milos
+De Palma, Brian
+Kaufman, Philip
+Seaton, George
+Truffaut, François
+Gries, Tom
+Dembo, Richard
+Logan, Joshua
+Bridges, James
+Rosenberg, Stuart
+Bertolucci, Bernardo
+August, Bille
+Nelson, Ralph
+Hackford, Taylor
+Babenco, Hector
+Hill, George Roy
+
+Fantasy genre: 0 director(s) have won awards
+
+
+Horror genre: 2 director(s) have won awards
+
+Friedkin, William
+Reiner, Rob
+
+Music genre: 3 director(s) have won awards
+
+Cukor, George
+Wise, Robert
+Wyler, William
+
+Mystery genre: 2 director(s) have won awards
+
+Lumet, Sidney
+Demme, Jonathan
+
+Romance genre: 0 director(s) have won awards
+
+
+Science Fiction genre: 4 director(s) have won awards
+
+Spielberg, Steven
+Kubrick, Stanley
+Howard, Ron
+Zucker, Jerry
+
+Short genre: 0 director(s) have won awards
+
+
+War genre: 2 director(s) have won awards
+
+Schaffner, Franklin J.
+Wellman, William
+
+Western genre: 4 director(s) have won awards
+
+Hill, George Roy
+Costner, Kevin
+Hathaway, Henry
+Ruggles, Wesley
