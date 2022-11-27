@@ -1,0 +1,30 @@
+The following temperatures were recorded: 
+Jan 39 
+Feb 42 
+Mar 50 
+Apr 60 
+May 71 
+Jun 79 
+Jul 85 
+Aug 81 
+Sep 76 
+
+The simple average across all months is: 64.7778 degrees Fahrenheit
+
+Moving averages across 3 months: 
+Mar: 43.6667
+Apr: 50.6667
+May: 60.3333
+Jun: 70
+Jul: 78.3333
+Aug: 81.6667
+Sep: 80.6667
+
+Weighted moving average across 3 months: 
+Mar: 45.5
+Apr: 53.6667
+May: 63.8333
+Jun: 73.1667
+Jul: 80.6667
+Aug: 82
+Sep: 79.1667

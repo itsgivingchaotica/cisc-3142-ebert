@@ -14,7 +14,14 @@ int main()
     ofstream ofs("results.csv.txt",ofstream::out);
     //nested vector to hold all film records
     vector<vector<string>> records;
-    string line,word;
+    vector<string> years;
+    vector<string> directors;
+    string line;
+    double averageLength;
+    double length=0;
+    double rLength=0;
+    size_t count=0;
+    size_t awardscount = 0;
 
     if (file.is_open()){
         //skip first two lines
@@ -33,8 +40,6 @@ int main()
     } else {
         cerr << "could not read file" << endl;
     }
-    double averageLength;
-    double length=0;
 
     //calculate the average length of time for the films - average running length
     for (const vector<string> fields : records)
@@ -55,10 +60,7 @@ int main()
         return a[0] < b[0];
     });
     //determine the average running time of the films by decade. using sorted by year 2d vector
-    vector<string> years;
     string prevYear = decadeRecords[0][0].substr(0,3);
-    double rLength=0;
-    size_t count=0;
     for (const vector<string> decade : decadeRecords)
     {
         //if there is a year, the running length is not null and the field is a film from the previous year
@@ -87,9 +89,7 @@ int main()
         return a[3] < b[3];
     });
     //find the directors who have received awards in the different genres
-    vector<string> directors;
     string prev = genreRecords[0][3];
-    size_t awardscount = 0;
     for (const vector<string> genre : genreRecords)
     {
         vector<string>::iterator it;
