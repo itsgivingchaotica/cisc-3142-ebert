@@ -1,0 +1,6 @@
+When persistence is enabled, 
+Cloud Firestore caches every document received from the backend for offline access. 
+Cloud Firestore sets a default threshold for cache size. 
+After exceeding the default, Cloud Firestore periodically attempts to clean up older, 
+unused documents. You can configure a different cache size threshold 
+or disable the clean-up process completely.
