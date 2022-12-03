@@ -3,7 +3,7 @@ You can view workflows runs via GitHub Actions, file used was : exercise10.yaml
 
 Alternatively you may run `make exercise10` within the exercise folder.
 
-The output is included "results.txt" as proof of workflow run.
+The output is included "results.txt" as proof of sample run.
 
 
 ```
