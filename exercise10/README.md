@@ -1876,6 +1876,13 @@ c) Use find to find the first occurrence of an actor from the ranked movies
 
 The first film entry starring Brando, Marlon from popularity list: 
 1978 145 Superman, The Movie Action Brando, Marlon Kidder, Margot Donner, Richard 87 No brando.png
+
+d) Extract from the data two vectors: Action and Comedy. Use unique to find the unique years these movies were released and print. Use equal to compare the two unique lists
+Years action films were released: 1926 1932 1939 1940 1942 1943 1949 1950 1951 1953 1954 1956 1957 1958 1959 1960 1961 1962 1964 1966 1967 1968 1969 1970 1971 1972 1973 1974 1975 1976 1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 
+
+Years comedy films were released: 1931 1935 1936 1937 1939 1941 1947 1948 1950 1952 1953 1954 1955 1956 1957 1958 1959 1961 1962 1963 1964 1965 1966 1967 1968 1969 1970 1971 1972 1973 1974 1975 1976 1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 
+
+Action and comedy do not have the same number of years released. Action: 47, Comedy: 50
 ```
 
 # **Redo Midterm Question**
