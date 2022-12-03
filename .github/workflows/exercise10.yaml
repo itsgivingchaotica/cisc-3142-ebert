@@ -1,4 +1,4 @@
-name: Exercise 5 programs
+name: Exercise 10 programs
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  exercise5:
+  exercise10:
 
     runs-on: macos-latest
 
