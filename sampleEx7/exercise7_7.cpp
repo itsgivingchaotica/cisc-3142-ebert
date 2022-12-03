@@ -10,7 +10,7 @@ int main()
         Sales_data trans;
         while (read(cin,total))
         {
-            if (total.itemNo == trans.itemNo)
+            if (total.isbn() == trans.isbn())
             {
                 total.combine(trans);
             }

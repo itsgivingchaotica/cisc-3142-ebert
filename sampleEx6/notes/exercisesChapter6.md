@@ -24,8 +24,9 @@ The return types dont match. Should return an `int`
 
 ## **Exercise 6.6**
 > Explain the differences between a parameter, a local variable, and a local static variable. Give an example of a function in which each might be useful.
-A parameter includes local variables declared by function, destroyed when function terminates and are defined in the scope of the function's body. 
-A local variable is initialized inside the scope of the block and is destroyed for when the function is called again. 
+
+A parameter includes local variables declared by function, destroyed when function terminates and defined in the scope of the function's body. 
+A local variable is initialized inside the scope of the block and is destroyed when the function is called again. 
 A local static variable's lifetime continues across calls to the function. For example, keeping a record / running count of a sum
 ```
 int running_count(int val) //val is a parameter
@@ -52,15 +53,20 @@ int main()
 ## **Exercise 6.7**
 > Write a function that returns 0 when it is first called and then generates numbers in sequence each time it is called again
 ```
+#include <iostream>
+
+using std::cout;
+using std:: endl;
+
 size_t count_up()
 {
     static size_t ctr = 0;
-    return ++ctr;
+    return ctr++;
 }
 int main()
 {
     for (size_t i = 0; i != 20; ++i)
-        cout << count_up() <<endl;
+        cout << count_up() << endl;
     return 0;
 }
 ```

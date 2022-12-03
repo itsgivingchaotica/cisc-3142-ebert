@@ -27,7 +27,7 @@ class Sales_data
     string itemNo;
     unsigned units_sold = 0;
     double revenue = 0.0;
-    
+
   public:
     Sales_data() : Sales_data("", 0, 0.0f){ }
     explicit Sales_data(istream &is) : Sales_data() { read(is, *this); }

@@ -1,6 +1,8 @@
 /**
- * Rewrite the bookstore program to read its transactions from a file. Pass the name of the file as an argument to main
-*/
+ * Revise the bookstore program from the previous section to write its output to a file
+ * Pass the name of that file as a second argument to main
+ */
+
 #include <fstream>
 #include <string>
 #include "Sales_data.cpp"

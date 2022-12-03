@@ -3,7 +3,7 @@
 */
 #include <iostream>
 #include <string>
-#include "Sales_data.h"
+#include "Sales_data.cpp"
 #include <fstream>
 
 using std::ifstream;
@@ -33,11 +33,11 @@ int main(int argc, char **argv)
             }
             else
             {
-                print(cout,total);
-                total = trans;
+                print(cout,total) << endl;
+                total = trans; //defalt copy constructor
             }
         }
-        print(cout,total);
+        print(cout,total) << endl;
     }
     else
     {

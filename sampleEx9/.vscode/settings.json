@@ -64,6 +64,7 @@
         "variant": "cpp",
         "algorithm": "cpp",
         "filesystem": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "map": "cpp"
     }
 }

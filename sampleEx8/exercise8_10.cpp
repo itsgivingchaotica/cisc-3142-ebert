@@ -1,3 +1,7 @@
+/**
+ * Write a program to store each line from a file in a vector<string>
+ * now use an istringstream to read each element from the vector a word at a time
+*/
 #include <iostream>
 #include <string>
 #include <sstream>
