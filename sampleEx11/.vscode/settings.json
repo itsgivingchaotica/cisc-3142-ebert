@@ -7,6 +7,10 @@
         "vector": "cpp",
         "map": "cpp",
         "string": "cpp",
-        "istream": "cpp"
+        "istream": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp",
+        "__tree": "cpp",
+        "__config": "cpp"
     }
 }
