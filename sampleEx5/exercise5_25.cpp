@@ -5,8 +5,8 @@
 #include <iostream>
 #include <stdexcept>
 
-using std::cout;
 using std::cin;
+using std::cout;
 using std::endl;
 using std::runtime_error;
 
@@ -22,12 +22,14 @@ int main()
             {
                 throw runtime_error("Second integer cannot be 0");
             }
-            double divide = int1/int2;
-            cout << int1 << " divided by " << int2 << " is: " << int1/int2 << endl;
-        } catch (runtime_error err)
-            {
-            cout << err.what() << "\n" << "Try again. Enter two integers: " ;
-            }
+            double divide = int1 / int2;
+            cout << int1 << " divided by " << int2 << " is: " << int1 / int2 << endl;
+        }
+        catch (runtime_error err)
+        {
+            cout << err.what() << "\n"
+                 << "Try again. Enter two integers: ";
+        }
     }
     return 0;
 }
