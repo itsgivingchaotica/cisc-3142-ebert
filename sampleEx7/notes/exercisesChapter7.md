@@ -1,9 +1,191 @@
 # * **Exercises from Chapter 7*
 
-## **Exercise 7.8**
-> Why does `read` define its `Sales_data` parameter as a plain reference and `print` define its parameter asa reference to `const`?
+## **Exercise 7.1-3**
+> Write a version of the transaction-processing program from p. 24 using the `Sales_data` class you defined for exercises on p. 72. Add the `combine` and `isbn` members to the `Sales_data` class you wrote for exercises on p. 76. Revise your transaction-processing program from p. 256 to use these members. Add operations to read and print `Person` objects to the code
 
-For `read` the reference must be plain because the object will be modified, whereas with `print` the values are simply printed so it can be a `const` reference.
+```
+#ifndef SALES_DATA_H
+#define SALES_DATA_H
+
+#include <string>
+#include <iostream>
+
+using std::cin;
+using std::cout;
+using std::cerr;
+using std::endl;
+using std::string;
+using std::istream;
+using std::ostream;
+
+class Sales_data;
+istream& read(istream&, Sales_data&);
+ostream &print(ostream&, const Sales_data&);
+Sales_data add(const Sales_data &lhs, const Sales_data &rhs);
+
+class Sales_data
+{
+  friend Sales_data add(const Sales_data &lhs, const Sales_data &rhs);
+  friend istream &read(istream&, Sales_data&);
+  friend ostream &print(ostream&, const Sales_data&);
+  public:
+    Sales_data() = default;
+    //Sales_data(const string &s) : itemNo(s){ }
+    //Sales_data(istream &is) { read(is, *this); }
+    Sales_data() : Sales_data("", 0, 0.0f)
+    {
+      cout << "Sales_data() initialized to null/zero" << endl;
+    }
+    Sales_data(const string &s) : Sales_data(s, 0, 0.0f)
+    {
+      cout << "Sales_data(const string &s) initialized" << endl;
+    }
+    Sales_data(const string &s, unsigned n, double p) : itemNo(s), units_sold(n), revenue(p*n)
+    { 
+      cout << "Sales_data(const std::string&, unsigned, double)" << endl; 
+    }
+    Sales_data(istream &is) : Sales_data()
+      {
+        cout << "Sales_data(istream &is) : Sales_data()\n";
+      }
+    string isbn() const { return itemNo; }
+    Sales_data& combine(const Sales_data &rhs);
+ 
+  private:
+    inline double CalcAvgPrice() const;
+    string itemNo;
+    unsigned units_sold = 0;
+    double revenue = 0.0;
+};
+
+Sales_data& Sales_data::combine(const Sales_data &rhs)
+{
+  units_sold += rhs.units_sold;
+  revenue += rhs.revenue;
+  return *this;
+}
+
+Sales_data add(const Sales_data &lhs, const Sales_data &rhs)
+{
+    Sales_data total = lhs;
+    total.combine(rhs);
+    return total;
+}
+
+istream &read(istream &is, Sales_data &item)
+{
+  double price = 0;
+  is >> item.itemNo >> item.units_sold >> price;
+  item.revenue = price * item.units_sold;
+  return is;
+}
+
+ostream &print(ostream &os, const Sales_data &item)
+{
+  os << " ISBN#: " << item.isbn() << "number sold: " << item.units_sold << ", revenue: " << item.revenue << " average price: " << item.CalcAvgPrice(); 
+  return os;
+}
+
+inline double Sales_data::CalcAvgPrice() const 
+{ 
+  return units_sold ? revenue/units_sold : 0; 
+}
+
+#endif // SALES_DATA_H
+
+#include <iostream>
+#include <string>
+#include "Sales_data.h"
+
+using std::cin;
+using std::cout;
+using std::endl;
+
+int main()
+{
+    Sales_data total;
+    if (cin >> total.itemNo >> total.units_sold >> total.revenue)
+    {
+        Sales_data trans;
+        while (cin >> trans.itemNo >> trans.units_sold >> trans.revenue)
+        {
+            if (total.itemNo == trans.itemNo)
+            {
+                total.combine(trans);
+            }
+            else
+            {
+                cout << "Book No: " << total.itemNo << ", units: " << total.units_sold << ", revenue: " << total.revenue << '\n';
+                total = trans;
+            }
+        }
+        cout << "Book No: " << total.itemNo << ", units: " << total.units_sold << ", revenue: " << total.revenue << '\n';
+    }
+    else
+    {
+        cout << "Data not entered" << '\n';
+        return -1;
+    }
+    cout << endl;
+    return 0;
+}
+
+```
+
+## **Exercise 7.4-5**
+> Write a class named `Person` that represents the name and address of a person. Use a `string` to hold each of these elements. Subseqent exercises will incrementally add features to this class. Provide operations in your `Person` class to return the name and address. Should these functions be `const`? Explain your choice.
+
+```
+#ifndef PERSON_H
+#define PERSON_H
+
+#include <iostream>
+#include <string>
+
+using std::istream;
+using std::ostream;
+using std::string;
+
+class Person;
+istream &read(istream &, Person &);
+ostream &print(ostream &, const Person &);
+
+class Person
+{
+  friend istream &read(istream &, Person &);
+  friend ostream &print(ostream &, const Person &);
+
+public:
+  Person() = default;
+  Person(const string n, const string a) : name(n), address(a) {}
+  explicit Person(istream &is) { read(is, *this); }
+  string getName() const { return name; }
+  string getAddress() const { return address; }
+  // make const, we don't want to read but not write to the data members for the Person that is called
+private:
+  string name;
+  string address;
+};
+
+istream &read(istream &is, Person &person)
+{
+  is >> person.name >> person.address;
+  return is;
+}
+
+ostream &print(ostream &os, const Person &person) const
+{
+  os << "Name: " << person.name << ", address: " << person.address;
+  return os;
+}
+
+#endif
+```
+
+## **Exercise 7.8**
+> Why does `read` define its `Sales_data` parameter as a plain reference and `print` define its parameter as a reference to `const`?
+
+For `read` the reference must be plain because the object will be modified when calculating revecnue, whereas with `print` the values are simply printed so it should be a `const` reference.
 
 ## **Exercise 7.10**
 > What does the condition in the following `if` statement do?
@@ -19,17 +201,17 @@ Does the same as `if (cin >> data1 >> data2)`
 ## **Exercise 7.16**
 > What, if any, are the constraints on where and how often an access speciier may appear inside a class definition? What kinds of members should be defined after a `public` specifier? What kinds should be `private`?
 
-There's no constrinats on how often an access specifier appears inside a class defintion. Must keep in mind that each one specifies the acess level of the succeeding members. Any constructors / member functions that are part of the class interface will be under `public` whereas those data members and functions that are part of implementation will be listed under `private`
+There's no constrinats on how often an access specifier appears inside a class defintion. Must keep in mind that each one specifies the access level of the succeeding members. "You should make a function private when you don't need other objects or classes to access the function, when you'll be invoking it from within the class. Stick to the principle of least privilege, only allow access to variables/functions that are absolutely necessary. Anything that doesn't fit this criteria should be private." [private_vs_public] (https://stackoverflow.com/questions/4505938/when-why-to-make-function-private-in-class)
 
 ## **Exercise 7.17**
 > What, if any, are the differences between using `class` or `struct`
 
-The difference is strictly stylistic, in that the default access level differentiates the two
+The difference is strictly stylistic, in that the default access level differentiates the two - `public` for `struct` and `private` for `class` unless otherwise specified as `public` in the `class` constructor.
 
 ## **Exercise 7.18**
 > What is encapsulation? Why is it useful?
 
-Encapsulation allows separation of a class' interface and implementation (`public` vs `private`). Users can access the intercace but not the implentation. It can be useful for to hide the values or state of an object and its data members so as to prevent the user to have direct access to them / be able to corrupt the data associated with class objects. In addition, the author is able to make changes to the implemnetation without affecting the code written outside of it, as long as the class behavior is not affected.
+Encapsulation allows separation of a class' interface and implementation (`public` vs `private`). Users can access the interface but not the implentation. It can be useful for to hide the values or state of an object and its data members so as to prevent the user to have direct access to them / be able to corrupt the data associated with class objects. In addition, the author is able to make changes to the implemnetation without affecting the code written outside of it, as long as the class behavior is not affected.
 
 ## **Exercise 7.19**
 > Indicate which members of your `Person` class you would declare as `public` and which you should declare as `private`. Explain your choice
@@ -417,7 +599,7 @@ pos Screen::size() const
 The error lies in the return type not being specified as `Screen` therefore the code should read `Screen::pos Screen::size() const { return height * width; }` instead
 
 ## **Exercise 7.34**
-> What would happen if we put the typedef of pos in the Screen classon page 285 as the last line in the class?
+> What would happen if we put the typedef of pos in the Screen class on page 285 as the last line in the class?
 
 There would be an error due to the code `dummy_fcn(pos height);` as type `pos` would be undeclared and therefore unknown
 
@@ -485,14 +667,14 @@ int main()
 ```
 
 ## **Exercise 7.38**
-> We might want to supply cin as a default argument to the constructor that takes an istream&. Write the constructor declaration that uses cin as a default argument.
+> We might want to supply `cin` as a default argument to the constructor that takes an istream&. Write the constructor declaration that uses cin as a default argument.
 
 `Sales_data(istream &is = cin);`
 
 ## **Exercise 7.39**
 > Would it be legal for both the constructor that takes a string and the one that takes an istream& to have default arguments? If not, why not?
 
-Overloading a default constructor in this way will result in ambiguity and a compilation error. If in `main` the following is declared: `Sales_data s;` we run into the problem because our default constructors both take default arguments which are `string` and `istream` so the compiler will know whether to call the constructor that takes an empty `string` as default or `std::cin`.
+Overloading a default constructor in this way will result in ambiguity and a compilation error. If in `main` the following is declared: `Sales_data s;` we run into the problem because our default constructors both take default arguments which are `string` and `istream` so the compiler won't know whether to call the constructor that takes an empty `string` as default or `std::cin`.
 
 ## **Exercise 7.40**
 > Determine what data are needed in the class. Provide an appropriate set of constructors. Explain your decisions. (a) Book (b) Date (c) Employee (d) Vehicle (e) Object (f) Tree
@@ -662,7 +844,7 @@ class C
 > Is the following declaration legal? If not, why not?
 `vector<NoDefault> vec(10);` 
 
-The declaration is illegal because NoDefault has no default constructor. Each initialization with the `type` form 
+The declaration is illegal because NoDefault has no default constructor. The 10 elements want to be value initialized but cannot be due to the NoDefault type.
 
 ## **Exercise 7.45**
 > What if we defined the vector in the previous exercise to hold objects of type C?
@@ -710,12 +892,12 @@ Sales_data item2("9-999-99999-9");
 `explicit Person(istream &is) { read(is, *this); }` is a good example
 
 ## **Exercise 7.51**
-> Why do you think vector defines its single-argument constructor as explicit, but string does not?
+> Why do you think `vector` defines its single-argument constructor as `explicit`, but `string` does not?
 
 With `string` we often need to implicitly convert the a `char` to a `string`. Whereas for `vector` it have no meaning outside of being supplied `size`
 
 ## **Exercise 7.52**
-> Using our first version of Sales_data from §2.6.1(p. 72), explain the following initialization. Identify and fix any problems.
+> Using our first version of `Sales_data` from §2.6.1(p. 72), explain the following initialization. Identify and fix any problems.
 
 `Sales_data item = {"978-0590353403", 25, 15.99};` we cannot use this initialization without `Sales_data` being an aggregate class. If it looked like this then the initialization would work as expected. The members cannot be initialized as well.
 
@@ -751,11 +933,11 @@ public:
     }
     void set_hw(bool b)
     {
-        hardware = b;
+        hw = b;
     }
     void set_other(bool b)
     {
-        hardware = b;
+        other = b;
     }
 
 private:
@@ -781,7 +963,7 @@ struct Data {
 
 No, because member of `string` type is not a literal
 
-## **Exercise 7.5**
+## **Exercise 7.56**
 > What is a `static` class member? What are the advantages of `static` members? How do they differ from ordinary members?
 
 Associated with the class, not with individuals objects of class type and therefore exist outside any object. They have no `this` pointer so as functions they cannot be declared as `const` and therefore cannot use `this` in the body of the `static` member. Advantages are that they can be used in ways that non`static` data members cannot. Can have incomplete type as well as same type as class type of which it is a member. Can use as a default argument where non`static` members cannot because its value is part of the object of which it is a member. In addition, if the data is changed, each object can use the new value as it is accessible for all the objects of that type.
