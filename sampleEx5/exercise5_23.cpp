@@ -1,3 +1,7 @@
+/**
+ * Write a program that reads two integers from the standard input and prints the result of dividing the first number by the second. Revise your program to throw an exception if the second number is zero. 
+ */
+
 #include <iostream>
 #include <stdexcept>
 

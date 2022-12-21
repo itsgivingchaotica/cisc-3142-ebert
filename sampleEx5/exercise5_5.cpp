@@ -1,3 +1,7 @@
+/**
+ * Using an `if-else` statement, write your own version fo the program to generate the letter grade from a numeric grade
+ */
+
 #include <iostream>
 #include <vector>
 

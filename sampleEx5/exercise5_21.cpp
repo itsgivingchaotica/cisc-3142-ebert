@@ -1,3 +1,7 @@
+/**
+ * Revise the program from p. 191 so that it looks only for duplicated words that start with an uppercase letter.
+*/
+
 #include <iostream>
 #include <string>
 #include <cctype>

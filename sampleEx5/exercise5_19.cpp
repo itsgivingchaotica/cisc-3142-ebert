@@ -1,3 +1,7 @@
+/**
+ * Write a program that uses a `do while` loop to repetitively request two `string`s from the user and report which `string` is less than the other.
+ */
+
 #include <iostream>
 #include <string>
 
