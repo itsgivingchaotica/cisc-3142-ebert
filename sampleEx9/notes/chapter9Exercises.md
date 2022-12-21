@@ -8,7 +8,7 @@
 
 - (a) Because it is required we insert the words alphabetically into the container, if we were not to use associative container such as `set`, we would use `list`
 - (b) This is a FIFO structure. Use `queue`.
-- (c) `vector` works for this problem. It is not needed to insert or delete at front of back so we have no reason to use `dequeue` or `queue`. `sort` is well tailored to `vector`
+- (c) `vector` works for this problem. It is not needed to insert or delete at front or back so we have no reason to use `dequeue` or `queue`. `sort` is well tailored to `vector`
 
 ## **Exercise 9.2**
 > Define a `list` that holds elements that are `deque`s that hold `int`s
@@ -80,7 +80,7 @@ Instead use following line of code: `while (iter != iter2)`
 ## **Exercise 9.8**
 > What type should be used to read elements in a list of strings? To write them?
 
-`list<string>::iterator` or `list<string>::const_iterator` cna be used to read elements in a `list` of `string`s
+`list<string>::iterator` or `list<string>::const_iterator` can be used to read elements in a `list` of `string`s
 `list<string>::iterator` may be used to write elements
 
 ## **Exercise 9.9**
@@ -420,7 +420,7 @@ int main()
 These two would work exactly the same, which is the point using `insert` is that for `vector` is performing the same as `push_front` does for `list` (as well as `insert`) using an `iterator` as the element to `insert` the new elements.
 
 ## **Exercise 9.22**
-> Assuming `iv` is a `vector` of `int`s, what is wrong with hthe following program? How might you correct the problem(s)?
+> Assuming `iv` is a `vector` of `int`s, what is wrong with the following program? How might you correct the problem(s)?
 
 ```
 vector<int>::iterator iter = iv.begin(), mid = iv.begin() + iv.size()/2;
@@ -460,6 +460,8 @@ if (!c.empty()) {
 }
 ```
 
+"begin() returns an iterator that can be used to iterate through the collection, while front() just returns a reference to the first element of the collection." [The difference between front() and begin()] (https://stackoverflow.com/questions/9303110/the-difference-between-front-and-begin)
+
 ## **Exercise 9.24**
 > Write a program that fetches the first element in a  `vector` using `at`, the subscript operator,`front` and `begin`. Test your program on an empty vector.
 
@@ -477,7 +479,8 @@ int main()
     cout << "ivec.at(0): " << ivec.at(0) << "\nivec[0]: " << ivec[0] 
     << "\n*ivec.begin(): " << *ivec.begin() << "\nivec.front(): " << ivec.front() << endl;
     vector<int> ivec2;
-    //these would all fail
+    
+    //these next ones would all fail
     //cout << "ivec2.at(0): " << ivec2.at(0); //terminating with uncaught exception of type std::out_of_range: vector
     //cout << "\nivec2[0]: " << ivec2[0];//segmentation fault
     //cout << "\n*ivec2.begin(): " << *ivec2.begin(); //segmentation fault
@@ -506,18 +509,14 @@ using std::vector;
 using std::list;
 using std::cout;
 using std::endl;
+using std::begin;
+using std::end;
 
 int main() 
 {
     int ia[] = {0, 1, 1 ,2, 3, 5, 8, 13, 21, 55, 89};
-    vector<int> ivec;
-    list<int> lst;
-     for (int i = 0; i < sizeof(ia)/sizeof(int); ++i)
-    {
-        ivec.push_back(ia[i]);
-        lst.push_back(ia[i]);
-    }
-    auto it = lst.begin();
+    vector<int> ivec(begin(ia), end(ia));
+    list<int> lst(ivec.begin(), ivec.end());
     //delee all odd integers from list
     while (it != lst.end())
     {
@@ -613,6 +612,7 @@ void insertAfter(forward_list<string> &flst, const string &first, const string &
     }
     //if first not found, insert after the last element
     flst.insert_after(prev,second);
+    return;
 }
 
 int main()
@@ -645,7 +645,7 @@ int main()
 ## **Exercise 9.30**
 > What, if any, restrictions does using the version of `resize` that takes a single argument place on the element type?
 
-from the book: "If the container holds elements of a class type and `resize` adds elements, we must supply an initializer or the element type must hav e a default constructor"
+from the book: "If the container holds elements of a class type and `resize` adds elements, we must supply an initializer or the element type must have a default constructor"
 
 ## **Exercise 9.31**
 > The program on page 354 to remove even-valued elements and duplicate odd ones will not work on a `list` or `forward_list`. Why? Revise the program so that it works on these types as well.
@@ -716,7 +716,7 @@ The statement is illegal as the order of evaluation of arguments is unspecified.
 ## **Exercise 9.33**
 > In the final example in this section what would happen if we did not assign the result of `insert` to `begin`? Write a program that omits this assignment to see if your expectation was correct.
 
-As seen in this example, the program would crash bbecause the iterator is invalid after `insert()`. `iterator`s, pointers, and references to a `vector` or `string` are invalid if the container was reallocated:
+As seen in this example, the program would crash because the iterator is invalid after `insert()`. `iterator`s, pointers, and references to a `vector` or `string` are invalid if the container was reallocated:
 
 ```
 #include <iostream>
@@ -1212,7 +1212,7 @@ private:
 Date::Date(const std::string& str)
 {
     if (str.empty()) return;
-    std::string delimiters{" ,/"};
+    string delimiters{" ,/"};
     auto first_delim = str.find_first_of(delimiters);
     if (first_delim == string::npos)
         cerr << "wrong format" << endl;
